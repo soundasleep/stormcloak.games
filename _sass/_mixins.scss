@@ -1,0 +1,104 @@
+
+$dotted-links-height-ratio: (1.25 / 1.5);
+
+// also applies within bigger/smaller content blocks
+// ratios (e.g. 1.375) are defaults from minima theme
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+
+  // reset
+  @media screen and (min-width: $on-large) {
+    font-size: $base-font-size * $ratio;
+  }
+}
+
+@mixin inline-icon-style($code) {
+  content: ' ';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background: url('/img/icons/#{$code}icon.png') no-repeat;
+}
+
+/* intended to apply to <a> tags */
+@mixin with-contextual-link-styles($alpha: 1) {
+  &[href$=".pdf" i]::after {
+    @include inline-icon-style('pdf');
+  }
+
+  /* highlight missing .md files in red */
+  &[href$=".md" i]:not([href*='/']) {
+    color: $red;
+    text-decoration-color: transparentize($red, 1.0 - $alpha);
+  }
+}
+
+@mixin dotted-links($base-font-size, $link-color: $default-link-color, $hover-color: $default-hover-color, $alpha: 0.3) {
+  font-size: $base-font-size;
+
+  // tweak the link style to be cool
+  a {
+    @include with-contextual-link-styles($alpha: $alpha);
+
+    color: $link-color;
+    text-decoration: underline;
+    text-decoration-color: transparentize($link-color, 1.0 - $alpha); // can't do dotted links
+
+    &:hover {
+      color: $hover-color;
+      text-decoration: underline;
+      text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
+
+      > svg.svg-icon {
+        fill: $hover-color;
+      }
+    }
+
+    &.highlight-inline {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+
+        > span {
+          text-decoration: underline;
+          text-decoration-color: transparentize($hover-color, 1.0 - ($alpha * 2)); // can't do dotted links nicely
+        }
+      }
+    }
+  }
+
+  h1 {
+    @include relative-font-size(1.75);
+  }
+
+  h2 {
+    @include relative-font-size(1.5);
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+  }
+
+  h4 {
+    @include relative-font-size(1.125);
+  }
+}
+
+@mixin slightly-gradient-background($background, $highlight) {
+  background-color: mix($background, $highlight, 20%);
+  background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+      mix($background, $highlight, 20%) 0%,
+      mix($background, $highlight, 30%) 100%);
+  border-color: mix($background, $highlight, 10%);
+  transition: background 0.2s;
+
+  // &:hover {
+  //   background-color: mix($background, $highlight, 22%);
+
+  //   background: radial-gradient(farthest-corner at $spacing-unit $spacing-unit,
+  //       mix($background, $highlight, 22%) 0%,
+  //       mix($background, $highlight, 32%) 100%);
+  // }
+}

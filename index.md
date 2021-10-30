@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+![Stormcloak Games](/assets/images/logo transparent@2x.png)
+
+* [hello@stormcloak.games](mailto:hello@stormcloak.games)
+* [about](/about)

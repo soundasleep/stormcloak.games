@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// adapted from SMACSS
+
+// tech
+@import "variables";
+@import "mixins";
+
+// base
+@import "minima";
+@import "base";
+
+// layout: on all pages
+@import "header";
+@import "content";
+@import "footer";
+
+// components: reusable across pages
+@import "components";
+
+// pages: cosmetic tweaks per-page
+@import "pages";

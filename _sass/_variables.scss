@@ -1,0 +1,50 @@
+@import "_colours";
+
+// Minima defaults from https://github.com/jekyll/minima/blob/master/_sass/minima.scss
+$base-font-family: 'Heebo', Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$brand-color:      #616B83;
+$brand-color-highlight:      #303D5C;
+
+$background-color: $brand-color;
+$text-color:       $white;
+$default-link-color: mix($text-color, $brand-color, 35%);
+$default-hover-color: $text-color;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$orange-color:     #f66a0a;
+$table-text-align: left;
+
+$header-darken: 5%;
+$footer-darken: 5%;
+$header-border: mix($grey-color-dark, $black);
+$footer-border: mix($grey-color-dark, $black);
+
+// Width of the content area
+$content-width:    1050px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$on-medium:        $on-palm;
+$on-large:         $on-laptop;
+
+// Aliases
+$background: $background-color;
+$text: $text-color;
+$link-color: $brand-color;
+$highlight: $brand-color;
+$mobile: $on-medium;
+$tablet: $on-large;
+
+// New variables
+$font-weight-normal: $base-font-weight;
+$font-weight-bold: 600;

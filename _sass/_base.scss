@@ -1,0 +1,52 @@
+html, body {
+  @include slightly-gradient-background($brand-color-highlight, $brand-color);
+}
+
+/**
+ * Links
+ * built off minima
+ */
+a {
+  text-decoration: none;
+  transition: text-decoration 0.2s, color 0.2s, border 0.2s;
+
+  &:visited, &:active {
+    color: darken($brand-color, 30%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+
+    > svg.svg-icon {
+      fill: $text-color;
+    }
+  }
+
+  > svg.svg-icon {
+    transition: fill 0.2s;
+  }
+}
+
+nav {
+  > ul, > ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    > li {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+
+      + li::before {
+        content: ' - ';
+        color: $gray;
+      }
+    }
+  }
+}
+
+b, strong {
+  font-weight: 600;
+}

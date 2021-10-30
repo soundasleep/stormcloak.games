@@ -1,0 +1,53 @@
+footer.site-footer {
+  $footer-text-color: transparentize($text-color, 0.5);
+
+  @include slightly-gradient-background(darken($brand-color, $footer-darken), darken($brand-color-highlight, $footer-darken));
+  border-top-color: $footer-border;
+
+  box-shadow: inset 0 ($spacing-unit / 4) ($spacing-unit / 4) rgba(0,0,0,0.1);
+
+  .footer-col-wrapper {
+    color: $footer-text-color;
+
+    @include dotted-links($base-font-size * 0.85);
+  }
+
+  // override minima defaults
+  .footer-col-1 {
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-2 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+  }
+
+  @include media-query($on-palm) {
+    .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+  }
+
+  h2.footer-heading {
+    line-height: $base-font-size * 1.5; // keep all elements in the heading the same size
+
+    a {
+      color: transparentize($text-color, 0.1);
+
+      > svg.svg-icon {
+        vertical-align: middle;
+      }
+
+      &:hover > svg.svg-icon {
+        fill: $text-color;
+      }
+    }
+
+    .rss-link {
+      float: right;
+    }
+  }
+}
