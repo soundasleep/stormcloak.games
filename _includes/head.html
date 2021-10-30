@@ -4,7 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <meta name="generated" content="{{ site.time | date: '%Y-%m-%d %H:%M:%S %z' }}">
-  <link rel="icon" href="/favicon.ico" />
+
+  {% comment %} via https://realfavicongenerator.net/ {% endcomment %}
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="{{ "/assets/main.js" | relative_url }}"></script>
