@@ -5,7 +5,7 @@
 layout: root
 ---
 
-[![Stormcloak Games](/assets/images/logo transparent@2x.png)](/about)
+[![Stormcloak Games](/assets/images/transparent logo@2x.png)](/about)
 
 * [hello@stormcloak.games](mailto:hello@stormcloak.games)
 * [about](/about)
