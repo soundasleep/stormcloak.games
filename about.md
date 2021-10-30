@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-Coming soon
+**Stormcloak Games** is a brand new game development studio based in Wellington, New Zealand.

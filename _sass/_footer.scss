@@ -14,13 +14,13 @@ footer.site-footer {
 
   // override minima defaults
   .footer-col-1 {
-    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-    width:         calc(70% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(#{$footer-column-width} - (#{$spacing-unit} / 2));
+    width:         calc(#{$footer-column-width} - (#{$spacing-unit} / 2));
   }
 
   .footer-col-2 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(#{100% - $footer-column-width} - (#{$spacing-unit} / 2));
+    width:         calc(#{100% - $footer-column-width} - (#{$spacing-unit} / 2));
   }
 
   @include media-query($on-palm) {
@@ -49,5 +49,11 @@ footer.site-footer {
     .rss-link {
       float: right;
     }
+  }
+
+  .social-media-list {
+    max-width: 120px;
+    display: block;
+    margin-left: auto;
   }
 }

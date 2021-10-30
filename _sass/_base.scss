@@ -9,13 +9,18 @@ html, body {
 a {
   text-decoration: none;
   transition: text-decoration 0.2s, color 0.2s, border 0.2s;
+  color: $default-link-color;
 
-  &:visited, &:active {
-    color: darken($brand-color, 30%);
+  &:visited {
+    color: $default-link-color;
+  }
+
+  &:active {
+    color: mix($default-link-color, $default-hover-color);
   }
 
   &:hover {
-    color: $text-color;
+    color: $default-hover-color;
     text-decoration: underline;
 
     > svg.svg-icon {
@@ -49,4 +54,10 @@ nav {
 
 b, strong {
   font-weight: 600;
+}
+
+code {
+  background: darken($background-color, 10%);
+  border: darken($background-color, 30%);
+  color: darken($text-color, 10%);
 }

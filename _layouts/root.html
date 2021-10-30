@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: blank
+---
+<article class="post">
 
-  {%- include head.html -%}
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-  {% if page.name %}
-    {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
-  {% else %}
-    {%- assign body_class = "page-" | append: page.id | slugify -%}
-  {% endif %}
-
-  <body class="{{ body_class }}">
-
-    <main class="page-content" aria-label="Content">
-      {{ content }}
-    </main>
-
-  </body>
-
-</html>
+</article>
