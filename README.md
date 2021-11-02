@@ -1,7 +1,7 @@
 stormcloak.games
 ================
 
-Source code for https://stormcloak.agmes in [Jekyll](https://jekyllrb.com/).
+Source code for https://stormcloak.games in [Jekyll](https://jekyllrb.com/).
 
 * Using [Minima theme](https://github.com/jekyll/minima)
 * [Jekyll layout cheat sheet](https://devhints.io/jekyll)
