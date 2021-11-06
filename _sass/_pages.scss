@@ -46,7 +46,24 @@ body.page-index {
 }
 
 body.page-blog {
-  a.read-more-link {
-    font-size: 80%;
+  article {
+    a.read-more-link {
+      font-size: 80%;
+    }
+
+    ul.post-list li {
+      background: rgba(0,0,0,0.1);
+      padding: 15px 20px;
+      border-radius: 20px;
+
+      span.post-meta {
+        float: right;
+        padding: 10px;
+      }
+    }
+  }
+
+  nav.actions {
+    display: none;
   }
 }
