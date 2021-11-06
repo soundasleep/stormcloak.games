@@ -29,7 +29,7 @@ layout: default
           {%- if post.description -%}
             {{ post.description }}
           {%- else -%}
-            {{ post.content | markdownify | truncatewords: 100 }}
+            {{ post.content | markdownify | truncatewords: 50 }}
             <a class="read-more-link" href="{{ post.url | relative_url }}">
               read more
             </a>
