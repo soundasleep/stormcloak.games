@@ -6,7 +6,7 @@ html, body {
  * Links
  * built off minima
  */
-a {
+a:not(.button) {
   text-decoration: none;
   transition: text-decoration 0.2s, color 0.2s, border 0.2s;
   color: $default-link-color;
@@ -60,4 +60,18 @@ code {
   background: darken($background-color, 10%);
   border: darken($background-color, 30%);
   color: darken($text-color, 10%);
+}
+
+a.button, button, input[type=button], input[type=submit], input[type=reset] {
+  background: $cta-background-color;
+  color: $cta-text-color;
+  border: 0;
+  padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
+  border-radius: ($spacing-unit / 2);
+  display: inline-block;
+  margin: 0;
+
+  &:hover {
+    color: darken($cta-text-color, 10%);
+  }
 }

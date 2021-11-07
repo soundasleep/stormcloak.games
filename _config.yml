@@ -21,13 +21,14 @@
 title: Stormcloak Games
 email: hello@stormcloak.games
 description: >- # this means to ignore newlines until "baseurl:"
-  A pretty rad game development studio in New Zealand
+  Following my dreams to make video games
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: StormcloakGames
 patreon_username: jevon
 
 google_analytics: G-549M6W985W
+mailing_list_url: https://landing.mailerlite.com/webforms/landing/o2o8t5
 
 # Build settings
 markdown: kramdown

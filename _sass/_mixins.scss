@@ -38,7 +38,7 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   font-size: $base-font-size;
 
   // tweak the link style to be cool
-  a {
+  a:not(.button) {
     @include with-contextual-link-styles($alpha: $alpha);
 
     color: $link-color;

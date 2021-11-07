@@ -1,3 +1,3 @@
-a {
+a:not(.button) {
   @include with-contextual-link-styles();
 }

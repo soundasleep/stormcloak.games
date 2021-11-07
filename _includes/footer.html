@@ -14,13 +14,18 @@
         <p>{{- site.description | escape -}}</p>
 
         <p>Copyright &copy; <a href="/">{{ site.title | escape }}</a> {{ 'now' | date: "%Y" }}</p>
+
+        {%- if site.mailing_list_url -%}
+        <p class="call-to-action">
+          <a href="{{ site.mailing_list_url | escape }}" class="button">Sign up for updates</a>
+        </p>
+        {%- endif -%}
       </div>
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
     </div>
-
   </div>
 
 </footer>

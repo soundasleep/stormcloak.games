@@ -36,3 +36,9 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+{%- if site.mailing_list_url -%}
+<nav class="call-to-action">
+  <a href="{{ site.mailing_list_url | escape }}" class="button">Sign up for updates</a>
+</nav>
+{%- endif -%}

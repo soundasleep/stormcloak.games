@@ -1,48 +1,48 @@
 body.page-index {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background: $brand-color-highlight;
-	background: linear-gradient(54deg, $brand-color-highlight 0%, $brand-color 150%);
-	line-height: 150%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: $brand-color-highlight;
+  background: linear-gradient(54deg, $brand-color-highlight 0%, $brand-color 150%);
+  line-height: 150%;
 
-	main {
-		display: flex;
-		max-width: 500px;
-		width: 100%;
-		height: 100%;
-		margin: auto auto;
-		text-align: center;
-		background: 0;
+  main {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    text-align: center;
+    background: 0;
 
-		article {
-			margin: auto;
-			display: block;
-			padding: 20px;
+    article {
+      margin: auto;
+      display: block;
+      padding: 20px;
 
-			img {
-				width: 100%;
-				margin-bottom: 20px;
-			}
+      img {
+        width: 100%;
+        margin-bottom: 20px;
+      }
 
-			ol, ul {
-				list-style: none;
-				margin: 0;
-				padding: 0;
+      ol, ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
 
-				li {
-					display: inline-block;
+        li {
+          display: inline-block;
 
-					+ li:before {
-						content: '|';
+          + li:before {
+            content: '|';
             display: inline-block;
-            margin: 0 10px 0 7px;
-					}
-				}
-			}
-		}
-	}
+            margin: 0 ($spacing-unit / 3) 0 ($spacing-unit / 5);
+          }
+        }
+      }
+    }
+  }
 }
 
 body.page-blog {
@@ -53,12 +53,18 @@ body.page-blog {
 
     ul.post-list li {
       background: rgba(0,0,0,0.1);
-      padding: 15px 20px;
-      border-radius: 20px;
+      padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
+      border-radius: ($spacing-unit / 1.5);
 
       span.post-meta {
         float: right;
-        padding: 10px;
+        padding: ($spacing-unit / 3);
+
+        // reset
+        @media screen and (max-width: $on-large) {
+          float: none;
+          padding: 0;
+        }
       }
     }
   }
