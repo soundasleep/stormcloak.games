@@ -40,8 +40,6 @@ main.page-content {
     img {
       max-width: 500px;
       margin: auto;
-      box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
-      border-radius: ($spacing-unit / 2);
 
       @media screen and (max-width: 500px) {
         max-width: 100%;

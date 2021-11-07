@@ -19,11 +19,11 @@ body.page-index {
     article {
       margin: auto;
       display: block;
-      padding: 20px;
+      padding: $spacing-unit;
 
       img {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: $spacing-unit;
       }
 
       ol, ul {
@@ -71,5 +71,18 @@ body.page-blog {
 
   nav.actions {
     display: none;
+  }
+}
+
+// only on actual blog pages
+article.post.h-entry {
+  img {
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    border-radius: ($spacing-unit / 2);
+
+    @media screen and (max-width: 500px) {
+      max-width: 100%;
+    }
   }
 }
