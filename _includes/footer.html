@@ -18,6 +18,8 @@
         {%- if site.mailing_list_url -%}
         <p class="call-to-action">
           <a href="{{ site.mailing_list_url | escape }}" class="button">Sign up for updates</a>
+
+          {% if site.patreon_username %}<a class="button" href="https://patreon.com/{{ site.patreon_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/patreon.svg#patreon' | relative_url }}"></use></svg> <span class="username">Support on Patreon</span></a>{% endif %}
         </p>
         {%- endif -%}
       </div>

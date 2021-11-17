@@ -70,9 +70,14 @@ footer.site-footer {
       padding: ($spacing-unit / 2 / 2) ($spacing-unit / 1.5 / 2);
       border-radius: ($spacing-unit / 2 / 2);
       font-size: 80%;
+      margin-right: ($spacing-unit / 4);
 
       &:hover {
         color: darken($cta-text-color, 10%);
+      }
+
+      > svg.svg-icon {
+        fill: $cta-text-color;
       }
     }
   }
