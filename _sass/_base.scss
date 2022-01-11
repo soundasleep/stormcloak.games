@@ -79,3 +79,7 @@ a.button, button, input[type=button], input[type=submit], input[type=reset] {
 blockquote {
   color: mix($text-color, $background-color, 50%);
 }
+
+table tr:nth-child(2n), table th {
+  background-color: rgba(0,0,0,0.2);
+}
