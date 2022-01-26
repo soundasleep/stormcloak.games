@@ -37,13 +37,24 @@ main.page-content {
       text-align: center;
     }
 
-    img {
+    img, figure {
       max-width: 500px;
+      text-align: center;
       margin: auto;
+
+      iframe {
+        max-width: 100%;
+      }
 
       @media screen and (max-width: 500px) {
         max-width: 100%;
       }
+    }
+
+    figure {
+      margin-top: $spacing-unit;
+      margin-bottom: $spacing-unit;
+      font-style: italic;
     }
   }
 }

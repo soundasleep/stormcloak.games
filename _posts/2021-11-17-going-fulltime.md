@@ -3,6 +3,14 @@ layout: post
 title:  "Going fulltime"
 date:   2021-11-17 15:11:00 +1300
 author: Jevon Wright
+description: |
+  With the incredible support of my partner K (thank you!), it's official.
+  I've decided to take the plunge,
+  and go fulltime on developing video games!!
+
+  🤯🎉💖
+
+  But first, a bit of history...
 ---
 
 With the incredible support of my partner K (thank you!), it's official.
