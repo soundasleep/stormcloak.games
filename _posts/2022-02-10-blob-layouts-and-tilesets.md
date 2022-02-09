@@ -7,7 +7,7 @@ author: Jevon Wright
 
 (Warning: technical gamedev post)
 
-I noticed the following tileset format is quite popular in asset packs:
+I noticed the following tileset layout is quite popular in asset packs:
 
 <figure class="image">
   <a href="https://maaot.itch.io/mossy-cavern"><img src="/assets/blog/7x7-tileset-unaltered.png"></a>
