@@ -55,6 +55,10 @@ main.page-content {
       margin-top: $spacing-unit;
       margin-bottom: $spacing-unit;
       font-style: italic;
+
+      figcaption {
+        margin-top: $spacing-unit * 0.25;
+      }
     }
   }
 }
