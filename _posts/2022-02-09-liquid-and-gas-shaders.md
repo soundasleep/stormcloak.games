@@ -31,7 +31,7 @@ resources I've found, such as [Shadertoy](https://www.shadertoy.com/),
 [Making Stuff Look Good](https://www.youtube.com/watch?v=xWCZiksqCGA),
 this [GLSL quick reference PDF](http://mew.cx/glsl_quickref.pdf),
 and [Lygia](https://github.com/patriciogonzalezvivo/lygia) (shader library).
-And my new friend Oisin!
+And my new friend [Oisin](https://imois.in/)!
 
 It's still a deep and dark black magic but I've learned a lot.
 
