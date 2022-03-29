@@ -14,7 +14,7 @@ a stable foundation for all my work going forward:
 There's now a debug console, which you can access with the tilde key `~`:
 
 <figure class="image">
-  <a href="/assets/screenshots/2022-19-03.png"><img src="/assets/screenshots/2022-19-03.png"></a>
+  <a href="/assets/screenshots/2022-03-19.png"><img src="/assets/screenshots/2022-03-19.png"></a>
   <figcaption>There's now a debug console</figcaption>
 </figure>
 
