@@ -11,6 +11,17 @@ main.page-content {
     margin-bottom: $spacing-unit * 0.75;
   }
 
+  pre, code {
+    color: #222;
+    background: #eef;
+    font-family: 'Consolas', monospace;
+
+    span {
+      color: #222;
+      background: #eef;
+    }
+  }
+
   nav.actions {
     float: right;
     font-size: $base-font-size * 0.8;
