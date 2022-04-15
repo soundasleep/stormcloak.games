@@ -3,6 +3,7 @@ layout: post
 title:  "Blob layouts and tilesets"
 date:   2022-02-10 10:45:00 +1300
 author: Jevon Wright
+truncate_words: 75
 ---
 
 (Warning: technical gamedev post)

@@ -32,7 +32,7 @@ layout: default
               read more
             </a>
           {%- else -%}
-            {%- assign truncate_words_value = site.truncate_words | default: 50 -%}
+            {%- assign truncate_words_value = post.truncate_words | default: site.truncate_words | default: 50 -%}
             {{ post.content | markdownify | truncatewords: truncate_words_value }}
             <a class="read-more-link" href="{{ post.url | relative_url }}">
               read more

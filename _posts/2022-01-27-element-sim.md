@@ -3,6 +3,7 @@ layout: post
 title:  "Progress on the element simulation"
 date:   2022-01-27 11:01:00 +1300
 author: Jevon Wright
+truncate_words: 75
 ---
 
 I've been deep in the weeds of the physics/element simulation, which I think will

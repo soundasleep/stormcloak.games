@@ -3,6 +3,7 @@ layout: post
 title:  "Liquid and gas shaders"
 date:   2022-02-09 12:46:00 +1300
 author: Jevon Wright
+truncate_words: 75
 ---
 
 Being stuck in the weeds continues, with great success! Over the last two weeks I
