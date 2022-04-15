@@ -30,6 +30,9 @@ patreon_username: jevon
 google_analytics: G-549M6W985W
 mailing_list_url: https://landing.mailerlite.com/webforms/landing/o2o8t5
 
+disqus:
+  shortname: stormcloak
+
 truncate_words: 100
 
 # Build settings

@@ -82,3 +82,8 @@ nav.call-to-action {
     margin-top: 0;
   }
 }
+
+div#disqus_thread {
+  margin-top: $spacing-unit * 2;
+  border-top: 2px solid rgba(255, 255, 255, .2);
+}

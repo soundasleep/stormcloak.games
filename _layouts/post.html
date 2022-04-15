@@ -30,15 +30,16 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+{%- if site.disqus.shortname -%}
+  {%- include disqus-thread.html -%}
+{%- endif -%}
 
 {%- if site.mailing_list_url -%}
 <nav class="call-to-action">
   <a href="{{ site.mailing_list_url | escape }}" class="button">Sign up for updates</a>
 </nav>
 {%- endif -%}
+
