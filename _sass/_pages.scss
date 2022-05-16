@@ -85,3 +85,11 @@ article.post.h-entry, figure.image {
     }
   }
 }
+
+body.page-privacy {
+  .post-content {
+    h1, h2, h3 {
+      font-weight: $font-weight-bold;
+    }
+  }
+}

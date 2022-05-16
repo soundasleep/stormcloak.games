@@ -63,7 +63,7 @@ footer.site-footer {
     }
   }
 
-  p.call-to-action {
+  .call-to-action {
     margin-bottom: 0;
 
     a.button, button, input[type=button], input[type=submit], input[type=reset] {
@@ -78,6 +78,25 @@ footer.site-footer {
 
       > svg.svg-icon {
         fill: $cta-text-color;
+      }
+    }
+
+    ul.mini-links {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      font-size: 80%;
+      list-style: none;
+
+      @media screen and (max-width: $on-large) {
+        display: block;
+        margin-top: $spacing-unit * 0.5;
+      }
+
+      > li {
+        display: inline-block;
+        margin: 0 $spacing-unit * 0.33 0 0;
+        padding: 0;
       }
     }
   }
