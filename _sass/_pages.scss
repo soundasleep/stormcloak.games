@@ -70,7 +70,7 @@ body.page-blog {
       font-size: 80%;
     }
 
-    ul.post-list li {
+    ul.post-list > li {
       background: rgba(0,0,0,0.1);
       padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
       border-radius: ($spacing-unit / 1.5);
