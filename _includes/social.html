@@ -1,7 +1,7 @@
 <ul class="social-media-list">
-  {%- if site.dribbble_username -%}<li><a class="highlight-inline" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg> <span class="username">{{ site.dribbble_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.subreddit -%}<li><a class="highlight-inline" href="https://reddit.com/r/{{ site.subreddit| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/reddit1.svg#reddit' | relative_url }}"></use></svg> <span class="username">{{ site.subreddit| escape }}</span></a></li>{%- endif -%}
 
-  {%- if site.facebook_username -%}<li><a class="highlight-inline" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">{{ site.facebook_username| escape }}</span></a></li>{%- endif -%}
+  {%- if site.dribbble_username -%}<li><a class="highlight-inline" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg> <span class="username">{{ site.dribbble_username| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.flickr_username -%}<li><a class="highlight-inline" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use></svg> <span class="username">{{ site.flickr_username| escape }}</span></a></li>{%- endif -%}
 
@@ -12,6 +12,8 @@
   {%- if site.pinterest_username -%}<li><a class="highlight-inline" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#pinterest' | relative_url }}"></use></svg> <span class="username">{{ site.pinterest_username| escape }}</span></a></li>{%- endif -%}
 
   {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a class="highlight-inline" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username">{{ mst.username|escape }}</span></a></li>{%- endif -%}{%- endfor -%}
+
+  {%- if site.facebook_username -%}<li><a class="highlight-inline" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">{{ site.facebook_username| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.twitter_username -%}<li><a class="highlight-inline" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ site.twitter_username| escape }}</span></a></li>{%- endif -%}
 

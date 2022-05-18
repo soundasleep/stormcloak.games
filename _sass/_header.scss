@@ -43,11 +43,8 @@ header.site-header {
       background-size: 240px;
       text-indent: -900em;
       overflow: hidden;
-      border: 1px solid rgba(0,0,0,0);
 
-      &:hover {
-        border-color: $default-link-color;
-      }
+      @include hover-image-border;
     }
   }
 }

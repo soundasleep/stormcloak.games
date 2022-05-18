@@ -21,11 +21,16 @@
 title: Stormcloak Games
 email: hello@stormcloak.games
 description: >- # this means to ignore newlines until "baseurl:"
-  Following my dreams to make video games
+  Developing fascinating and deep simulation video games
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stormcloak.games" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: StormcloakGames
 patreon_username: jevon
+
+twitter_username: stormcloakgames
+patreon_username: jevon
+facebook_username: adaptorygame
+youtube_username: jevonwright
+subreddit: adaptory
 
 google_analytics: G-549M6W985W
 mailing_list_url: https://landing.mailerlite.com/webforms/landing/o2o8t5

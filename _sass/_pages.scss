@@ -41,6 +41,25 @@ body.page-index {
           }
         }
       }
+
+      figure.image {
+        small {
+          font-size: 66%;
+          color: transparentize($text-color, 0.5);
+        }
+      }
+
+      a.logo {
+        @include hover-image-border;
+        padding: $spacing-unit * 0.33;
+      }
+
+      a.game-title {
+        img {
+          @include hover-image-border;
+        }
+        display: block;
+      }
     }
   }
 }
@@ -90,6 +109,17 @@ body.page-privacy {
   .post-content {
     h1, h2, h3 {
       font-weight: $font-weight-bold;
+    }
+  }
+}
+
+body.page-about {
+  a.game-title {
+    img {
+      max-width: 400px;
+      @media screen and (max-width: 500px) {
+        max-width: 100%;
+      }
     }
   }
 }

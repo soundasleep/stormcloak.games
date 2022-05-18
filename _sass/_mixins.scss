@@ -102,3 +102,14 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   //       mix($background, $highlight, 32%) 100%);
   // }
 }
+
+@mixin hover-image-border {
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0);
+  transition: border-color 0.2s;
+  border-radius: ($spacing-unit / 4);
+
+  &:hover {
+    border-color: $default-link-color;
+  }
+}

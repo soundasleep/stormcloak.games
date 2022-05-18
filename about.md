@@ -6,10 +6,16 @@ permalink: /about
 
 **Stormcloak Games** is a brand new game development studio based in Wellington, New Zealand.
 
-Behind the curtain, though, it's just [@soundasleep](https://twitter.com/soundasleep) doing everything.
+<figure class="image">
+  <a href="https://adaptorygame.com" class="game-title">
+    <img src="/assets/images/adaptory pre-alpha 16x9@2x.png">
+  </a>
+</figure>
 
-Right now I'm working on a game that's shaping up to be a fascinating and deep 2D base builder/colony/survival sim, deeply inspired by Oxygen Not Included, Rimworld, and Stardew Valley.
-(And no, the game doesn't have a name yet.)
+Our first game is called _[Adaptory](https://adaptorygame.com)_, and is
+an upcoming base-building survival game, combining multiple complex simulations with a story-rich world.
+Deeply inspired by Oxygen Not Included, Rimworld, and Stardew Valley,
+the game will be released in 2023.
 
 <figure class="video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/tsFQt1s6t-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -21,4 +27,5 @@ Right now I'm working on a game that's shaping up to be a fascinating and deep 2
   <figcaption>Some of the 43 <a href="/2022/03/29/focusing-on-materials">materials and elements</a> in the game</figcaption>
 </figure>
 
-There's lots more depth coming. For more details, check out the [blog](blog.md).
+We post weekly updates to our [dev blog](blog.md),
+and quarterly updates to our [mailing list](updates.md).
