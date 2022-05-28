@@ -18,7 +18,7 @@ provides 3D spatial sounds. When you zoom in, nearby sounds
 get louder, and when you move the camera, far-away sounds get quieter:
 
 <figure class="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cu6z_UG0kH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/u7n7P2R7EMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <figcaption>The volume of playing sounds changes based on zoom and location</figcaption>
 </figure>
 
