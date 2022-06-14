@@ -66,18 +66,25 @@ body.page-index {
 
 body.page-blog {
   article {
+    h3 > a.post-link:not(.button) {
+      font-size: 110%;
+      font-weight: $font-weight-bold;
+    }
+
     a.read-more-link {
       font-size: 80%;
     }
 
     ul.post-list > li {
       background: rgba(0,0,0,0.1);
-      padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
+      box-shadow: inset ($spacing-unit / 6) ($spacing-unit / 6) ($spacing-unit / 4) rgba(0,0,0,0.05);
+      padding: ($spacing-unit / 1.25) ($spacing-unit / 1) ($spacing-unit / 2);
       border-radius: ($spacing-unit / 1.5);
 
       span.post-meta {
         float: right;
         padding: ($spacing-unit / 3);
+        padding-top: 8px;
 
         // reset
         @media screen and (max-width: $on-large) {
