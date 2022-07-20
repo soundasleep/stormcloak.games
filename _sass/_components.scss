@@ -18,9 +18,15 @@ a:not(.button) {
   // display a box of about the same size until the script is actually loaded
   background-color: #2e374e;
   border-radius: 5px;
-  width: 400px;
+  width: 340px;
   max-width: 100%;
   height: 203px;
-  display: inline-block;
   margin: 0 auto;
+}
+.ml-form-embed, .ml-form-embedWrapper {
+  box-shadow: inset 1px 1px 5px rgba(0,0,0,0.25);
+  display: inline-block;
+  p {
+    max-width: 90%;
+  }
 }
