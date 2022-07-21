@@ -4,6 +4,7 @@ title: Updates
 permalink: /updates
 ---
 
+- [Update #3: announcing... Adaptory!](https://app.mailerlite.com/j9j6u5f7e1) - Jun 2022
 - [Update #2: systems, simulations, and shaders](https://app.mailerlite.com/r2b8j7w3d2) – Mar 2022
 - [Update #1: I've set up a Patreon](https://app.mailerlite.com/v1f0t1) – Nov 2021
 
