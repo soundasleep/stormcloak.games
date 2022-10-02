@@ -8,7 +8,7 @@ author: Jevon Wright
 
 TODO put in an actual date
 
-(Warning: _very_ technical gamedev post)
+(Warning: technical gamedev post)
 
 One of the reasons I started making Adaptory is that I wanted to play more games
 that had multithreaded simulations. Most simulation games have a loop similar to:
@@ -38,14 +38,11 @@ Adaptory is a game with multiple simulations all interacting together, such as [
 
 This simulation must be reproducible and fast, and the
 rendering thread _also_ needs to be fast. They can't be locked together;
-a game running at 15 FPS is unbelievably awful,
-and a simulation running at 60 FPS is wasteful.
-For now, I've settled on the following design:
+a game running at 15 FPS is not fun to play,
+and a simulation running at 60 FPS is unnecessary.
+For now, I've settled on the following design (I love a good architecture diagram 😅):
 
 ## Adaptory's Design
-
-(This is still a work in progress, but I am an architect at heart,
-and I love a good architecture diagram 😅)
 
 At a very high level, there are two types of game world – read-only, and read-write.
 The UI/render thread can _only_ access the read-only game world.
@@ -67,11 +64,11 @@ This also prevents _other_ weird concurrency bugs happening the other way.
   <figcaption>The Update Orchestrator manages and synchronises all the simulations</figcaption>
 </figure>
 
-This design is pretty flexible, and allows for a number of different simulation
-types, including long-running simulations, and asynchronous queries.
+This design is flexible, and allows for a number of different simulation
+types, including long-running simulations and asynchronous queries.
 Ideally simulations can be broken down into smaller chunks that can run in parallel.
 [ForkJoinPool](https://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html) provides
-a lot of this behaviour for free:
+a lot of this infrastructure for free:
 
 <figure class="image">
   <a href="/assets/screenshots/2022-10-04-local-threads.jpg"><img src="/assets/screenshots/2022-10-04-local-threads.jpg"></a>
@@ -93,11 +90,14 @@ single-threaded one!
 
 <figure class="image">
   <a href="/assets/screenshots/2022-10-04-performance-graph.png"><img src="/assets/screenshots/2022-10-04-performance-graph.png"></a>
-  <figcaption>Initial performance results: single-threaded vs multithreaded element simulations</figcaption>
+  <figcaption>Initial performance results: single-threaded vs multithreaded element simulations, in ms per simulation frame</figcaption>
 </figure>
 
 (Once I saw this graph, I immediately started wondering, what's preventing faster frames?
-Is it memory bandwidth, CPU performance, something else...?)
+Is it memory bandwidth, CPU performance, something else...?
+One of the benefits of using Java is that you're insulated from
+the structure of internal memory, but one of the drawbacks is that you're also
+insulated from the structure of internal memory...)
 
 I'm confident that this architecture and these concepts are a good starting point.
 I still have lots of other optimisation ideas to try out,
