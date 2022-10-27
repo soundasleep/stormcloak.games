@@ -19,6 +19,6 @@ layout: root
   <small>Developers of</small>
 
   <a href="https://adaptorygame.com" class="game-title">
-    <img src="/assets/images/adaptory pre-alpha 16x9@2x.png" style="max-width: 300px;">
+    <img src="/assets/images/adaptory 16x9@2x.png" style="max-width: 300px;">
   </a>
 </figure>

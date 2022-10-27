@@ -8,7 +8,7 @@ permalink: /about
 
 <figure class="image">
   <a href="https://adaptorygame.com" class="game-title">
-    <img src="/assets/images/adaptory pre-alpha 16x9@2x.png">
+    <img src="/assets/images/adaptory 16x9@2x.png">
   </a>
 </figure>
 
