@@ -6,7 +6,7 @@ author: Jevon Wright
 truncate_words: 110
 ---
 
-Alpha 1 is now live and free to play!! 🥳 You can
+Adaptory Alpha 1 is now live and free to play!! 🥳 You can
 [download a copy on itch.io](https://soundasleepful.itch.io/adaptory),
 or by using the embedded link below:
 
