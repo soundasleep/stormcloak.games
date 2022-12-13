@@ -5,7 +5,7 @@ hide: true
 permalink: /privacy
 ---
 
-Last updated: 24 October 2022
+Last updated: 13 December 2022
 
 ## 1. Introduction
 
@@ -42,11 +42,15 @@ We will use your personal information:
 
 ## 5. Specific information collected
 
-If while running our game, you have enabled the automatic upload of **crash data** and a crash or exception occurs, the following information may be shared with us over the internet:
+If while running our game, you have enabled the automatic upload of **crash data** and a crash or exception occurs,
+the following information may be shared with us over the internet, so we can help improve the game for other players:
 
 - the stacktrace of the crash, including any relevant debug data
 - the version of the game running and its dependencies
 - your locale
+- the name and version of your operating system
+- the name and version of your graphics card
+- the total, and available, memory and hard drive space
 - the world state of your game at the time of the crash
 
 If you have enabled the automatic upload of **play data**, the following information may be shared with us over the internet at regular intervals:
@@ -57,7 +61,7 @@ If you have enabled the automatic upload of **play data**, the following informa
 
 In both cases, this information should not contain any personally identifying information and will only be used to improve our game.
 
-In [Adaptory](https://adaptorygame.com), you can permanently enable or disable this data collection by going into _Options > Data collection_, or by launching the game with the command line argument `-Dprivacy=1`.
+In [Adaptory](https://adaptorygame.com), you can permanently enable or disable ALL data collection by going into _Options > Data collection_, or by launching the game with the command line argument `-Dprivacy=1` ("privacy mode").
 
 ## 6. Disclosing your personal information
 
