@@ -9,7 +9,9 @@ layout: default
 
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <span class="post-meta">
-      {{ page.date | date: date_format }}
+      <span title="{{ page.date }}">
+        {{ page.date | date: date_format }}
+      </span>
 
       {% if page.tags.size > 0 %}
         - {{ page.tags | sort | join: ", " }}
