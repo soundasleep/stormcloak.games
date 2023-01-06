@@ -3,6 +3,7 @@ layout: post
 title:  "Prototyping and pre-production"
 date:   2021-11-26 15:15:00 +1300
 author: Jevon Wright
+year:   2021
 ---
 
 It's certainly been an odd week. Last week I finished up at my previous role

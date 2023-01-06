@@ -3,6 +3,7 @@ layout: post
 title:  "Improving the element simulation"
 date:   2021-12-17 11:34:00 +1300
 author: Jevon Wright
+year:   2021
 ---
 
 I'm happy with my progress in making
