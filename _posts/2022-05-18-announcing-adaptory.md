@@ -4,6 +4,7 @@ title:  "Announcing: Adaptory"
 date:   2022-05-18 13:30:00 +1200
 author: Jevon Wright
 image:  /assets/images/adaptory pre-alpha 16x9@2x.png
+year:   2022
 ---
 
 Very excited to announce that the game now has a name!!

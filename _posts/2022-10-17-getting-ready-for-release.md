@@ -3,6 +3,7 @@ layout: post
 title:  "Getting ready for release"
 date:   2022-10-17 12:00:00 +1300
 author: Jevon Wright
+year:   2022
 #truncate_words: 100
 ---
 

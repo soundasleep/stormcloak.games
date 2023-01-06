@@ -3,6 +3,7 @@ layout: post
 title:  "Lasers and sleeping emotes"
 date:   2022-10-01 14:25:00 +1300
 author: Jevon Wright
+year:   2022
 #truncate_words: 100
 ---
 

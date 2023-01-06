@@ -3,6 +3,7 @@ layout: post
 title:  "Hair – and an alpha release date"
 date:   2022-09-22 10:45:00 +1200
 author: Jevon Wright
+year:   2022
 truncate_words: 101
 ---
 

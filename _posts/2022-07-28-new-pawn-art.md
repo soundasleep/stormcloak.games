@@ -3,6 +3,7 @@ layout: post
 title:  "New pawn art and animations"
 date:   2022-07-28 14:05:00 +1200
 author: Jevon Wright
+year:   2022
 #truncate_words: 150
 ---
 

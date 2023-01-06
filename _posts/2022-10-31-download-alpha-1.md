@@ -3,6 +3,7 @@ layout: post
 title:  "First release on itch.io!"
 date:   2022-10-31 12:30:00 +1300
 author: Jevon Wright
+year:   2022
 truncate_words: 110
 ---
 

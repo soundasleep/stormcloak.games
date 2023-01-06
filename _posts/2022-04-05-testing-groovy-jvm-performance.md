@@ -3,6 +3,7 @@ layout: post
 title:  "Testing Groovy/JVM scripting engine performance"
 date:   2022-04-05 12:48:00 +1200
 author: Jevon Wright
+year:   2022
 truncate_words: 75
 ---
 

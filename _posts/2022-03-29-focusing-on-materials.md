@@ -3,6 +3,7 @@ layout: post
 title:  "Focusing on materials"
 date:   2022-03-29 16:45:00 +1300
 author: Jevon Wright
+year:   2022
 ---
 
 Over the last week my focus has been on the physical materials that are present in the game.

@@ -3,6 +3,7 @@ layout: post
 title:  "Thoughts and dreams"
 date:   2022-04-16 10:57:00 +1200
 author: Jevon Wright
+year:   2022
 ---
 
 For the last week, the most interesting things I've been working on have been the pawns –

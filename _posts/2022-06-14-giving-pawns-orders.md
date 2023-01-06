@@ -3,6 +3,7 @@ layout: post
 title:  "Giving pawns orders"
 date:   2022-06-14 14:15:00 +1200
 author: Jevon Wright
+year:   2022
 # truncate_words: 150
 ---
 

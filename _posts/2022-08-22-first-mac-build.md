@@ -3,6 +3,7 @@ layout: post
 title:  "First Mac OS build"
 date:   2022-08-22 11:10:00 +1200
 author: Jevon Wright
+year:   2022
 #truncate_words: 150
 ---
 

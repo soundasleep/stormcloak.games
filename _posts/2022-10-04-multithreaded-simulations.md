@@ -3,6 +3,7 @@ layout: post
 title:  "Making Adaptory into a multithreaded simulation game"
 date:   2022-10-04 09:45:00 +1300
 author: Jevon Wright
+year:   2022
 #truncate_words: 100
 ---
 

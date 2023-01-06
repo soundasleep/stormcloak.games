@@ -3,6 +3,7 @@ layout: post
 title:  "Sandbox tools and a debug console"
 date:   2022-03-19 15:20:00 +1300
 author: Jevon Wright
+year:   2022
 ---
 
 I've continued to [focus on user interfaces](/2022/03/11/more-user-interfaces) for the

@@ -3,6 +3,7 @@ layout: post
 title:  "Fully spatialised sounds"
 date:   2022-06-07 11:35:00 +1200
 author: Jevon Wright
+year:   2022
 truncate_words: 150
 ---
 

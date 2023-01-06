@@ -3,6 +3,7 @@ layout: post
 title:  "Cleaning up liquids and tilesets"
 date:   2022-03-02 11:20:00 +1300
 author: Jevon Wright
+year:   2022
 ---
 
 It's been a long time since my last post where I wrote about the first

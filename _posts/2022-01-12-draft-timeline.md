@@ -3,6 +3,7 @@ layout: post
 title:  "A draft timeline"
 date:   2022-01-12 11:54:00 +1300
 author: Jevon Wright
+year:   2022
 ---
 
 Happy new year! 🎉

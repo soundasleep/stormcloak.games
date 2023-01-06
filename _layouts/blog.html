@@ -6,7 +6,7 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    {% assign posts = site.posts | where: "year", nil %}
+    {% assign posts = site.posts | where: "year", "2022" %}
 
     {%- if posts.size > 0 -%}
       {%- if page.list_title -%}

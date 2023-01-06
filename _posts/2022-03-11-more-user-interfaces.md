@@ -3,6 +3,7 @@ layout: post
 title:  "More user interface work"
 date:   2022-03-11 17:27:00 +1300
 author: Jevon Wright
+year:   2022
 truncate_words: 75
 ---
 

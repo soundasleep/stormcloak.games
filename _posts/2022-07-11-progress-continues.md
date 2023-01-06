@@ -3,6 +3,7 @@ layout: post
 title:  "Progress continues"
 date:   2022-07-11 10:00:00 +1200
 author: Jevon Wright
+year:   2022
 #truncate_words: 150
 ---
 

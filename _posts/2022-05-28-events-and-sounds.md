@@ -3,6 +3,7 @@ layout: post
 title:  "Working on events and spatial sounds"
 date:   2022-05-28 13:15:00 +1200
 author: Jevon Wright
+year:   2022
 truncate_words: 125
 ---
 

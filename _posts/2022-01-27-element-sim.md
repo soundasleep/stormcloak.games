@@ -3,6 +3,7 @@ layout: post
 title:  "Progress on the element simulation"
 date:   2022-01-27 11:01:00 +1300
 author: Jevon Wright
+year:   2022
 truncate_words: 75
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Now with colour!"
 date:   2022-09-05 11:05:00 +1200
 author: Jevon Wright
+year:   2022
 #truncate_words: 150
 ---
 

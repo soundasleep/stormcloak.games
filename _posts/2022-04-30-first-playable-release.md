@@ -4,6 +4,7 @@ title:  "The first playable release"
 date:   2022-04-30 12:20:00 +1200
 author: Jevon Wright
 image:  /assets/blog/desktop-launcher-zip.png
+year:   2022
 #truncate_words: 200
 ---
 
