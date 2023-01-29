@@ -12,6 +12,12 @@ permalink: /about
   </a>
 </figure>
 
+<figure class="image">
+  <a href="https://store.steampowered.com/app/2201620/Adaptory/" class="steam-button">
+    <img src="/assets/images/steam white@2x.png"> <span>Wishlist on <b>Steam</b></span>
+  </a>
+</figure>
+
 Our first game is called _[Adaptory](https://adaptorygame.com)_, and is
 an upcoming base-building survival game, combining multiple complex simulations with a story-rich world.
 Deeply inspired by Oxygen Not Included, Rimworld, and Stardew Valley,
