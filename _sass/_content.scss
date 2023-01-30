@@ -43,6 +43,13 @@ main.page-content {
       }
     }
 
+    hr {
+      margin: $spacing-unit 0 $spacing-unit * 0.5;
+      background: $text-color;
+      border: 0;
+      height: 2px;
+    }
+
     nav.inline {
       margin: 0 auto;
       text-align: center;
