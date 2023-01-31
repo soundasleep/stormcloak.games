@@ -4,6 +4,7 @@ title: Updates
 permalink: /updates
 ---
 
+- [Update #6: Adaptory – alpha 2 released](https://app.mailerlite.com/q3m8o9w7t6) - Jan 2023
 - [Update #5: first release on itch.io!](https://app.mailerlite.com/d3e6z6s1w4) – Oct 2022
 - [Update #4: Adaptory alpha next week!](https://app.mailerlite.com/d0e4a1d4n3) – Oct 2022
 - [Update #3: announcing... Adaptory!](https://app.mailerlite.com/j9j6u5f7e1) – Jun 2022
