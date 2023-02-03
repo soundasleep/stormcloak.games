@@ -46,14 +46,14 @@ computer video games in her spare time since she was 12, and received her PhD in
 Jevon has worked professionally with the software development industry for over two decades
 as an engineer, team leader, and most recently as a Solutions Architect for Xero.
 
-<div style="clear:both;"></div>
-<img src="/assets/images/team/cass.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+<div style="clear:both;margin-top:20px;"></div>
+<img src="/assets/images/team/cass2.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
 **Cassandra Tse** (she/her) is a playwright, theatre director, performer and the artistic director of Red Scare Theatre Company.
 She is a previous winner of Playmarket’s B4 25 Award and a recipient of the NZ Society of Authors Auckland Museum research grant
 and residency. Her plays and audio dramas have been shortlisted for Wellington Theatre Awards,
 Playwrights Association of NZ awards and Audio Verse awards.
 
-<div style="clear:both;"></div>
+<div style="clear:both;margin-top:20px;"></div>
 <img src="/assets/images/team/careously.png" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
 **Claire “Care” Sebastian** (they/them) is a freelance artist and content creator from the
 Chicagoland area. They studied at Savannah College of Art and Design, and graduated
