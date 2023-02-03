@@ -35,3 +35,29 @@ the game will be released in 2023.
 
 We post weekly updates to our [dev blog](blog.md),
 and quarterly updates to our [mailing list](updates.md).
+
+## The team making Adaptory
+
+<div style="clear:both;"></div>
+<img src="/assets/images/team/facebook-2016.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**[Jevon Wright](https://jevon.org)** (she/her) is a software engineer, community volunteer, musician, and an avid
+game designer based in Te Whanganui-a-Tara, Aotearoa. She has been making
+computer video games in her spare time since she was 12, and received her PhD in Computer Science in 2011.
+Jevon has worked professionally with the software development industry for over two decades
+as an engineer, team leader, and most recently as a Solutions Architect for Xero.
+
+<div style="clear:both;"></div>
+<img src="/assets/images/team/cass.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Cassandra Tse** (she/her) is a playwright, theatre director, performer and the artistic director of Red Scare Theatre Company.
+She is a previous winner of Playmarket’s B4 25 Award and a recipient of the NZ Society of Authors Auckland Museum research grant
+and residency. Her plays and audio dramas have been shortlisted for Wellington Theatre Awards,
+Playwrights Association of NZ awards and Audio Verse awards.
+
+<div style="clear:both;"></div>
+<img src="/assets/images/team/careously.png" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Claire “Care” Sebastian** (they/them) is a freelance artist and content creator from the
+Chicagoland area. They studied at Savannah College of Art and Design, and graduated
+in 2021 with a BFA for Illustration in Entertainment, and a minor in printmaking.
+Their Illustration focus is character design and background design for TV Animation.
+Currently they are working as a freelance artist, with clients such as authors, content
+creators, and game developers.
