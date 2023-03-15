@@ -78,6 +78,14 @@ a.button, button, input[type=button], input[type=submit], input[type=reset] {
 
 blockquote {
   color: mix($text-color, $background-color, 50%);
+
+  &.quote {
+    background: mix($text-color, $background-color, 10%);
+    color: $text-color;
+    padding: $spacing-unit * 0.5;
+    font-size: 90%;
+    letter-spacing: 0.5px;
+  }
 }
 
 table tr:nth-child(2n), table th {
