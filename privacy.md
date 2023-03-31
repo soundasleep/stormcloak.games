@@ -5,7 +5,7 @@ hide: true
 permalink: /privacy
 ---
 
-Last updated: 13 December 2022
+Last updated: 29 March 2023
 
 ## 1. Introduction
 
@@ -50,12 +50,14 @@ the following information may be shared with us over the internet, so we can hel
 - your locale
 - the name and version of your operating system
 - the name and version of your graphics card
+- recent game performance in FPS
 - the total, and available, memory and hard drive space
 - the world state of your game at the time of the crash
 
 If you have enabled the automatic upload of **play data**, the following information may be shared with us over the internet at regular intervals:
 
 - your unique, but anonymous, player GUID
+- recent game performance in FPS
 - how long you have been playing the game
 - the current world state of the game
 

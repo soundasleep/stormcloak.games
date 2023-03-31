@@ -40,7 +40,7 @@ and quarterly updates to our [mailing list](updates.md).
 
 <div style="clear:both;"></div>
 <img src="/assets/images/team/facebook-2016.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
-**[Jevon Wright](https://jevon.org)** (she/her) is a software engineer, community volunteer, musician, and an avid
+**Jevon Wright** (she/her) is a software engineer, community volunteer, musician, and an avid
 game designer based in Te Whanganui-a-Tara, Aotearoa. She has been making
 computer video games in her spare time since she was 12, and received her PhD in Computer Science in 2011.
 Jevon has worked professionally with the software development industry for over two decades
@@ -55,9 +55,17 @@ Playwrights Association of NZ awards and Audio Verse awards.
 
 <div style="clear:both;height:10px;"></div>
 <img src="/assets/images/team/careously.png" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
-**Claire “Care” Sebastian** (they/them) is a freelance artist and content creator from the
+**Claire "Care" Sebastian** (they/them) is a freelance artist and content creator from the
 Chicagoland area. They studied at Savannah College of Art and Design, and graduated
 in 2021 with a BFA for Illustration in Entertainment, and a minor in printmaking.
 Their Illustration focus is character design and background design for TV Animation.
 Currently they are working as a freelance artist, with clients such as authors, content
 creators, and game developers.
+
+<div style="clear:both;height:10px;"></div>
+<img src="/assets/images/team/sai.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Sai Natarajan** (he/him) is a New-Zealand based freelance composer for media.
+His background is mainly in orchestral music, with some of his work being
+recorded/performed by the New Zealand Symphony Orchestra, Orchestra Wellington,
+and the Manawatū Sinfonia. He has also composed music for a variety of media projects,
+including video games, children's audiobooks, and short films.
