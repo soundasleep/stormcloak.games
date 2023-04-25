@@ -20,7 +20,7 @@ permalink: /about
 
 Our first game is called _[Adaptory](https://adaptorygame.com)_, and is
 an upcoming base-building survival game, combining multiple complex simulations with a story-rich world.
-Deeply inspired by Oxygen Not Included, Rimworld, and Stardew Valley,
+Deeply inspired by Oxygen Not Included, Rimworld, and Dwarf Fortress,
 the game will be released in 2023.
 
 <figure class="video">
