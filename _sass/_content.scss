@@ -76,6 +76,9 @@ main.page-content {
 
       figcaption {
         margin-top: $spacing-unit * 0.25;
+        em, i {
+          font-style: normal;
+        }
       }
     }
   }
