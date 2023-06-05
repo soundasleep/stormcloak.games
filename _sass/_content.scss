@@ -11,6 +11,43 @@ main.page-content {
     margin-bottom: $spacing-unit * 0.75;
   }
 
+  h1 {
+    @include relative-font-size(1.75);
+  }
+
+  h2 {
+    margin-top: $spacing-unit * 1;
+    border-top: 1px solid transparentize(white, 0.9);
+    padding-top: $spacing-unit * 0.25;
+    @include relative-font-size(1.5);
+  }
+
+  h3 {
+    margin-top: $spacing-unit * 1;
+    border-top: 1px solid transparentize(white, 0.9);
+    padding-top: $spacing-unit * 0.25;
+    font-weight: bold;
+    @include relative-font-size(1.25);
+  }
+
+  hr + h1, hr + h2, hr + h3, hr + h4 {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  h4 {
+    @include relative-font-size(1.125);
+  }
+
+  .post-list {
+    h1, h2, h3, h4 {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+
   pre, code {
     color: #222;
     background: #eef;
