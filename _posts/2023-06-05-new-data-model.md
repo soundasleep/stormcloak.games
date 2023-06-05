@@ -120,7 +120,7 @@ Some of the major learnings I've had over the last few months include:
    but in a way that allows you to quietly replace specific methods
    with more optimised methods
 3. the best way to improve performance is to minimise how much data you're creating,
-   storing, and copying. you're most likely memory-bound, not CPU-bound.
+   storing, and copying. you're most likely memory-bound, not CPU-bound
 4. in order to optimise effectively you need to have reproducible workloads that
    accurately reflect what your users are seeing
 5. in Java, don't expose raw fields – use methods wherever possible, as they make
@@ -131,7 +131,8 @@ Some of the major learnings I've had over the last few months include:
    generic as possible
 7. `synchronized` is expensive, can you write your code in a way that doesn't need it?
 8. it's better to write your Java methods and classes with reallyLongNamesThatAccuratelyDescribeWhatTheyDo() than shortButVague().
-   once compiled by the VM, they're essentially anonymous integers anyway.
+   once compiled by the VM, they're essentially anonymous integers anyway
+9. I've still got a _lot_ to learn about optimising and building good Java software
 
 (Note: Some of these only apply to Java and the HotSpot VM as at JDK 17.)
 
