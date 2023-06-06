@@ -94,6 +94,9 @@ main.page-content {
 
     img, figure {
       max-width: 500px;
+      &.itch {
+        max-width: 600px; // allow itch.io embedded image to display
+      }
       text-align: center;
       margin: auto;
 
