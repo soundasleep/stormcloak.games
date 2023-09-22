@@ -27,13 +27,13 @@ a super amped up [Armageddon expo](/2023/05/30/alpha-4-is-coming).
 </figure>
 
 At PAX, **one** of the things we'll be showing off is brand new solid element art that Care has been working on ❤️
-It is beautiful and really makes the game pop.
-From 12 o'clock, going clockwise: sand, dirt, graphite, coal, basalt, ice, salt, and gold.
-With a few blocks of transmitite.
+It is beautiful and really makes the game pop. I've also used this as an opportunity to rewrite the
+element edges to make them clearer and faster.
 
 <figure class="image">
   <a href="/assets/screenshots/2023-09-22-solid-elements.png"><img src="/assets/screenshots/2023-09-22-solid-elements.png"></a>
-  <figcaption>New solid element art, coming in Adaptory Alpha 6</figcaption>
+  <figcaption>From 12 o'clock, going clockwise: sand, dirt, graphite, coal, basalt, salt, ice, and gold.
+With a few blocks of transmitite.</figcaption>
 </figure>
 
 The next release (Alpha 6) is almost ready and will be presented at PAX AU,
