@@ -97,6 +97,12 @@ main.page-content {
       &.itch {
         max-width: 600px; // allow itch.io embedded image to display
       }
+      &.toot {
+        iframe {
+          overflow: auto !important;
+        }
+      }
+
       text-align: center;
       margin: auto;
 
