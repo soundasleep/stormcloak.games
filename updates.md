@@ -4,6 +4,7 @@ title: Updates
 permalink: /updates
 ---
 
+- [Update #8: Adaptory alpha 5, Gamescom & more](https://app.mailerlite.com/r5q7z4u2f4) - Aug 2023
 - [Update #7: Adaptory – alpha 3 released](https://app.mailerlite.com/b4b2x1o9k6) - Mar 2023
 - [Update #6: Adaptory – alpha 2 released](https://app.mailerlite.com/q3m8o9w7t6) - Jan 2023
 - [Update #5: first release on itch.io!](https://app.mailerlite.com/d3e6z6s1w4) – Oct 2022
