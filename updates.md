@@ -4,6 +4,7 @@ title: Updates
 permalink: /updates
 ---
 
+- [Update #10: Adaptory – alpha 6 released](https://app.mailerlite.com/j0b5z1w7m2) - Oct 2023
 - [Update #9: See you at PAX AUS + Alpha 6 sneak peek](https://app.mailerlite.com/t1l0m7n5i9) - Oct 2023
 - [Update #8: Adaptory alpha 5, Gamescom & more](https://app.mailerlite.com/r5q7z4u2f4) - Aug 2023
 - [Update #7: Adaptory – alpha 3 released](https://app.mailerlite.com/b4b2x1o9k6) - Mar 2023
