@@ -4,11 +4,11 @@ title: Updates
 permalink: /updates
 ---
 
-- [Update #10: Adaptory – alpha 6 released](https://app.mailerlite.com/j0b5z1w7m2) - Oct 2023
-- [Update #9: See you at PAX AUS + Alpha 6 sneak peek](https://app.mailerlite.com/t1l0m7n5i9) - Oct 2023
-- [Update #8: Adaptory alpha 5, Gamescom & more](https://app.mailerlite.com/r5q7z4u2f4) - Aug 2023
-- [Update #7: Adaptory – alpha 3 released](https://app.mailerlite.com/b4b2x1o9k6) - Mar 2023
-- [Update #6: Adaptory – alpha 2 released](https://app.mailerlite.com/q3m8o9w7t6) - Jan 2023
+- [Update #10: Adaptory – alpha 6 released](https://app.mailerlite.com/j0b5z1w7m2) – Oct 2023
+- [Update #9: See you at PAX AUS + Alpha 6 sneak peek](https://app.mailerlite.com/t1l0m7n5i9) – Oct 2023
+- [Update #8: Adaptory alpha 5, Gamescom & more](https://app.mailerlite.com/r5q7z4u2f4) – Aug 2023
+- [Update #7: Adaptory – alpha 3 released](https://app.mailerlite.com/b4b2x1o9k6) – Mar 2023
+- [Update #6: Adaptory – alpha 2 released](https://app.mailerlite.com/q3m8o9w7t6) – Jan 2023
 - [Update #5: first release on itch.io!](https://app.mailerlite.com/d3e6z6s1w4) – Oct 2022
 - [Update #4: Adaptory alpha next week!](https://app.mailerlite.com/d0e4a1d4n3) – Oct 2022
 - [Update #3: announcing... Adaptory!](https://app.mailerlite.com/j9j6u5f7e1) – Jun 2022
