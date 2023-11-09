@@ -42,9 +42,9 @@ and quarterly updates to our [mailing list](updates.md).
 <img src="/assets/images/team/facebook-2016.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
 **Jevon Wright** (she/her) is a software engineer, community volunteer, musician, and an avid
 game designer based in Te Whanganui-a-Tara, Aotearoa. She has been making
-computer video games in her spare time since she was 12, and received her PhD in Computer Science in 2011.
-Jevon has worked professionally with the software development industry for over two decades
-as an engineer, team leader, and most recently as a Solutions Architect for Xero.
+video games since she was 12, and received her PhD in Computer Science from Massey University in 2011.
+Jevon has worked professionally in New Zealand's web and software industry for over two decades
+as a software engineer, front-end lead, team lead, and most recently for Xero as a Solutions Architect.
 
 <div style="clear:both;height:10px;"></div>
 <img src="/assets/images/team/cass2.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
@@ -69,3 +69,20 @@ His background is mainly in orchestral music, with some of his work being
 recorded/performed by the New Zealand Symphony Orchestra, Orchestra Wellington,
 and the Manawatū Sinfonia. He has also composed music for a variety of media projects,
 including video games, children's audiobooks, and short films.
+
+<div style="clear:both;height:10px;"></div>
+<img src="/assets/images/team/mika.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Mika Cornelius** (they/them), or Mikatte Music, is a composer and sound designer based in Auckland, New Zealand.
+They completed their BMus Honours in 2021 at the University of Auckland, specialising in Composition and Sonic Arts.
+Some of Mika's work has been performed by the Auckland Philharmonia Orchestra, the New Zealand Symphony Orchestra,
+and the Auckland Chamber Choir.
+Alongside _Adaptory_, they are also a sound designer for Black Salt Games' internationally accaimed fishing/horror video game _Dredge_.
+
+<div style="clear:both;height:10px;"></div>
+<img src="/assets/images/team/sabrina.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Sabrina Harms** (she/her) is an artist and communications specialist based in Rotorua, New Zealand.
+She was a featured performer in Chicago Women's Theatre Alliance Showcase and
+her plays and solo shows have been featured in multiple Fringe Festival circuits.
+She has managed social media brand development for YouTube channels, Twitch streamers,
+and film, theatre, and philanthropic organizations, and has taught
+acting and empathetic communication in numerous institutions both locally and internationally.
