@@ -76,7 +76,7 @@ including video games, children's audiobooks, and short films.
 They completed their BMus Honours in 2021 at the University of Auckland, specialising in Composition and Sonic Arts.
 Some of Mika's work has been performed by the Auckland Philharmonia Orchestra, the New Zealand Symphony Orchestra,
 and the Auckland Chamber Choir.
-Alongside _Adaptory_, they are also a sound designer for Black Salt Games' internationally accaimed fishing/horror video game _Dredge_.
+Alongside _Adaptory_, they are also a sound designer for Black Salt Games' internationally acclaimed fishing/horror video game _Dredge_.
 
 <div style="clear:both;height:10px;"></div>
 <img src="/assets/images/team/sabrina.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
