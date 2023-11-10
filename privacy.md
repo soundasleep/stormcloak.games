@@ -5,7 +5,7 @@ hide: true
 permalink: /privacy
 ---
 
-Last updated: 29 March 2023
+Last updated: 10 November 2023
 
 ## 1. Introduction
 
@@ -63,7 +63,7 @@ If you have enabled the automatic upload of **play data**, the following informa
 
 In both cases, this information should not contain any personally identifying information and will only be used to improve our game.
 
-In [Adaptory](https://adaptorygame.com), you can permanently enable or disable ALL data collection by going into _Options > Data collection_, or by launching the game with the command line argument `-Dprivacy=1` ("privacy mode").
+In [Adaptory](https://adaptorygame.com), you can permanently enable or disable ALL data collection by going into _Options > Data collection_, or by launching the game with the command line argument `--privacy` ("privacy mode").
 
 ## 6. Disclosing your personal information
 
