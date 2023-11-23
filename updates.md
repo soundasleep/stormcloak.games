@@ -16,7 +16,7 @@ var ml_account = ml('accounts', '3560492', 'g7v9u8q1h0', 'load');
 </script>
 <!-- End MailerLite Universal -->
 
-<div class="ml-form-center">
+<div class="ml-form-center" style="margin-bottom:20px;">
   <div class="ml-form-embed"
     data-account="3560492:g7v9u8q1h0"
     data-form="5731170:h7x5k6">
