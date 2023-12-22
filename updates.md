@@ -23,6 +23,7 @@ var ml_account = ml('accounts', '3560492', 'g7v9u8q1h0', 'load');
   </div>
 </div>
 
+- [Update #12: Adaptory – alpha 7 released](https://app.mailerlite.com/s5l2f6k2e6) - Dec 2023
 - [Update #11: Looking for feedback + Armageddon AKL](https://app.mailerlite.com/k2h1i1b3n0) – Oct 2023
 - [Update #10: Adaptory – alpha 6 released](https://app.mailerlite.com/j0b5z1w7m2) – Oct 2023
 - [Update #9: See you at PAX AUS + Alpha 6 sneak peek](https://app.mailerlite.com/t1l0m7n5i9) – Oct 2023
