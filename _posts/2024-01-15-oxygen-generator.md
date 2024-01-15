@@ -7,10 +7,9 @@ year:   2022 # display on page1
 #truncate_words: 112
 ---
 
-In the next version of _Adaptory_, there's a brand new building: the _oxygen generator_,
-which converts water and power into oxygen and hydrogen.
+In the next version of _Adaptory_, there's a brand new building: the _oxygen generator_.
 My goal for this building is to reflect [real-world water electrolysis](https://en.wikipedia.org/wiki/Electrolysis_of_water);
-that is, turning liquid water into oxygen and hydrogen.
+that is, turning liquid water into oxygen and hydrogen using electricity.
 
 <figure class="video">
   <iframe width="560" height="265" src="https://www.youtube.com/embed/WvQjy-IqMWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
