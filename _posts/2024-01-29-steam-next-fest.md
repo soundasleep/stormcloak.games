@@ -3,7 +3,7 @@ layout: post
 title:  "Steam Next Fest – What's happening"
 date:   2024-01-29 11:30:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 112
 ---
 

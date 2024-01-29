@@ -3,7 +3,7 @@ layout: post
 title:  "Oxygen generator"
 date:   2024-01-15 16:15:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 112
 ---
 

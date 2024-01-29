@@ -3,7 +3,7 @@ layout: post
 title:  "Random events WIP"
 date:   2023-03-16 15:11:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 150
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Beds and happiness"
 date:   2023-03-24 15:30:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 150
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "A new data model: Making Adaptory 10x faster"
 date:   2023-06-05 17:10:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 50
 ---
 

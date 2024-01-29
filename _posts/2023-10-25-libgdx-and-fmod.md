@@ -3,7 +3,7 @@ layout: post
 title:  "libgdx and FMOD"
 date:   2023-10-25 18:00:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 truncate_words: 35
 ---
 

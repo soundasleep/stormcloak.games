@@ -6,7 +6,7 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    {% assign posts = site.posts | where: "year", "2021" %}
+    {% assign posts = site.posts | where: "year", "2022" %}
 
     {%- if posts.size > 0 -%}
       {%- if page.list_title -%}
@@ -41,8 +41,13 @@ layout: default
 
   </div>
 
-  <div style="text-align:left;">
-    <a href="/blog/2022">&lt; 2022 entries</a>
+  <div class="columns columns-2">
+    <div class="column" style="text-align:left;">
+      <a href="/blog">&lt; Latest entries</a>
+    </div>
+    <div class="column" style="text-align:right;">
+      <a href="/blog/2021">2021 entries &gt;</a>
+    </div>
   </div>
 
   {%- include call-to-action.html -%}

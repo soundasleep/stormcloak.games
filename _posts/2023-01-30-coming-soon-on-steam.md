@@ -3,7 +3,7 @@ layout: post
 title:  "Coming Soon on Steam"
 date:   2023-01-30 10:15:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 150
 ---
 

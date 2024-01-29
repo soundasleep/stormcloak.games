@@ -3,7 +3,7 @@ layout: post
 title:  "Alpha 7 is around the corner"
 date:   2023-12-14 17:41:00 +1300
 author: Jevon Wright
-year:   2022 # display on page1
+year:   2023 # display on page1
 #truncate_words: 53
 ---
 
