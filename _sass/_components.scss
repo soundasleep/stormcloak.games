@@ -30,3 +30,11 @@ a:not(.button) {
     max-width: 90%;
   }
 }
+
+relative-time {
+  text-decoration: underline;
+  text-decoration-color: $gray;
+  text-decoration-style: dashed;
+  cursor: help;
+  white-space: nowrap;
+}

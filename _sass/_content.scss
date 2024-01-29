@@ -102,6 +102,22 @@ main.page-content {
           overflow: auto !important;
         }
       }
+      &.float-right {
+        display: inline-block;
+        float: right;
+        margin: 0 0 ($spacing-unit * 0.5) ($spacing-unit * 0.5);
+        img {
+          max-width: 400px;
+        }
+
+        @media screen and (max-width: 700px) {
+          display: block;
+          margin: auto;
+          float: initial;
+          max-width: 80%;
+          margin: ($spacing-unit * 0.5) ($spacing-unit * 0.5);
+        }
+      }
 
       text-align: center;
       margin: auto;

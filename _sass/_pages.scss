@@ -109,6 +109,18 @@ article.post.h-entry, figure.image {
     @media screen and (max-width: 500px) {
       max-width: 100%;
     }
+
+    &.inline {
+      display: inline-block;
+    }
+  }
+
+  a.calendar {
+    margin-left: $spacing-unit * 0.2;
+    img {
+      height: 18px;
+      display: inline-block;
+    }
   }
 }
 
