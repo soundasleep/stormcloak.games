@@ -74,7 +74,7 @@ the more likely the game will be featured across Steam 😊
   <a href="https://store.steampowered.com/news/app/2201620/view/3978435073801534645?l=english"><img src="/assets/screenshots/2024-01-29-livestream1.jpg"></a>
 </figure>
 
-We will also be **livestreaming the game** later that day at <relative-time datetime="2024-02-05T14:00:00-08:00" format="datetime" hour="numeric" prefix="" day="" month="" weekday="" timeZoneName="long">10am PST</relative-time>.
+We will also be **[livestreaming the game](https://store.steampowered.com/news/app/2201620/view/3978435073801534645)** later that day at <relative-time datetime="2024-02-05T14:00:00-08:00" format="datetime" hour="numeric" prefix="" day="" month="" weekday="" timeZoneName="long">10am PST</relative-time>.
 This stream is going to be featured across all of Steam! I'll be playing the game
 with special guest and friend [ThisIsRubyOK](https://www.twitch.tv/thisisrubyok),
 showing off some of the new systems, and answering questions. Come join in and say hi!!
