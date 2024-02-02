@@ -7,7 +7,7 @@ year:   2023 # display on page1
 truncate_words: 150
 ---
 
-The Steam Next Fest demo for _Adaptory_ is LIVE!! 🥳 You can download your free copy of the game on Steam:
+The Steam Next Fest demo for _Adaptory_ is LIVE!! 🥳 You can download your free copy of the game [on Steam](https://store.steampowered.com/app/2201620/Adaptory/):
 
 <figure class="steam">
   <iframe src="https://store.steampowered.com/widget/2201620/" frameborder="0" width="646" height="190"></iframe>
