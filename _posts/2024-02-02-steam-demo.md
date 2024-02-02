@@ -7,7 +7,8 @@ year:   2023 # display on page1
 truncate_words: 150
 ---
 
-The Steam Next Fest demo for _Adaptory_ is LIVE!! 🥳 You can download your free copy of the game [on Steam](https://store.steampowered.com/app/2201620/Adaptory/):
+The Steam Next Fest demo for _Adaptory_ is LIVE!! 🥳 You can download your free copy of the
+game [on Steam](https://store.steampowered.com/app/2201620/Adaptory/):
 
 <figure class="steam">
   <iframe src="https://store.steampowered.com/widget/2201620/" frameborder="0" width="646" height="190"></iframe>
@@ -15,9 +16,14 @@ The Steam Next Fest demo for _Adaptory_ is LIVE!! 🥳 You can download your fre
 
 Full patch notes are listed below.
 
-This version has been heavily tested but there may still be bugs, crashes, and unexpected behaviour. Please continue [sending through bug reports, feedback, and ideas](/discord) as we'll be working on polish and tweaks over the next week. A huge, huge thanks to everyone who has played an early build 🥰
+This version has been heavily tested but there may still be bugs, crashes, and unexpected
+behaviour. Please continue [sending through bug reports, feedback, and ideas](/discord) as
+we'll be working on polish and tweaks over the next week. A huge, huge thanks to everyone
+who has played an early build 🥰
 
-As mentioned in the [Steam Next Fest plan](/2024/01/29/steam-next-fest), the plan is to keep this demo up beyond the festival, but I might need to turn it off if something unexpected occurs. So [download a copy today](https://store.steampowered.com/app/2201620/Adaptory/),
+As mentioned in the [Steam Next Fest plan](/2024/01/29/steam-next-fest), the plan is to keep
+this demo up beyond the festival, but I might need to turn it off if something unexpected
+ occurs. So [download a copy today](https://store.steampowered.com/app/2201620/Adaptory/),
 and [please let us know](/discord) what you think!
 
 ## Voices
