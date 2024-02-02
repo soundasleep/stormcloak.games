@@ -64,10 +64,10 @@ so it should be easy to make last-minute changes!
 
 ### <relative-time datetime="2024-02-05T10:00:00-08:00" format="datetime" prefix="" month="long" weekday="long">Monday 5 February (PST)</relative-time>
 
-Steam Next Fest launches today at <relative-time datetime="2024-02-05T10:00:00-08:00" format="datetime" hour="numeric" prefix="" day="" month="" weekday="" timeZoneName="long">10am PST</relative-time>.
+Steam Next Fest launches at <relative-time datetime="2024-02-05T10:00:00-08:00" format="datetime" hour="numeric" prefix="" day="" month="" weekday="" timeZoneName="long">10am PST</relative-time>.
 For _Algorithm Reasons&trade;_, it would be really helpful if you're able
 to [download and play a copy](https://store.steampowered.com/app/2201620/Adaptory/)
-of the demo today – the more downloads and plays,
+of the demo on this day – the more downloads and plays,
 the more likely the game will be featured across Steam 😊
 
 <figure class="image">
@@ -84,7 +84,8 @@ showing off some of the new systems, and answering questions. Come join in and s
 
 ### <relative-time datetime="2024-02-07T08:00:00-08:00" format="datetime" prefix="" month="long" weekday="long">Wednesday 7 February (PST)</relative-time>
 
-We'll be doing another **featured livestream**, likely at <relative-time datetime="2024-02-07T08:00:00-08:00" format="datetime" hour="numeric" prefix="" day="" month="" weekday="" timeZoneName="long">8am PST</relative-time>. (Just waiting to hear back from Steam support!) <a class="calendar" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2FtYTZyazFlNTdibW1lNGFkZmRibmdxMDQgamV2b25Ac3Rvcm1jbG9hay5nYW1lcw&amp;tmsrc=jevon%40stormcloak.games"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+We'll also be doing **another livestream** this day, at <relative-time datetime="2024-02-07T08:00:00-08:00" format="datetime" hour="numeric" prefix="" day="" month="" weekday="" timeZoneName="long">5pm CEST</relative-time>, with another special guest. This stream is also going to be featured across all of Steam – so come on in and say hi again!
+<a class="calendar" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2FtYTZyazFlNTdibW1lNGFkZmRibmdxMDQgamV2b25Ac3Rvcm1jbG9hay5nYW1lcw&amp;tmsrc=jevon%40stormcloak.games"><img src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 ### <relative-time datetime="2024-02-12T10:00:00-08:00" format="datetime" prefix="" month="long" weekday="long">Monday 12 February (PST)</relative-time>
 
