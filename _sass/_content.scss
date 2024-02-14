@@ -94,12 +94,23 @@ main.page-content {
 
     img, figure {
       max-width: 500px;
-      &.itch {
+      &.itch, &.steam {
         max-width: 600px; // allow itch.io embedded image to display
       }
       &.toot {
         iframe {
           overflow: auto !important;
+        }
+      }
+      &.much-wider {
+        max-width: 700px;
+        img {
+          max-width: 700px;
+        }
+      }
+      &.no-shadow {
+        img {
+          box-shadow: none;
         }
       }
       &.float-right {
