@@ -37,7 +37,9 @@ and quarterly updates to our [mailing list](updates.md).
 ## The team making Adaptory
 
 <div style="clear:both;"></div>
-<img src="/assets/images/team/facebook-2016.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+<a href="https://jevon.org" target="_blank">
+  <img src="/assets/images/team/facebook-2016.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+</a>
 **Jevon Wright** (she/her) is a software engineer, community volunteer, musician, and an avid
 game designer based in Te Whanganui-a-Tara, Aotearoa. She has been making
 video games since she was 12, and received her PhD in Computer Science from Massey University in 2011.
@@ -52,7 +54,9 @@ and residency. Her plays and audio dramas have been shortlisted for Wellington T
 Playwrights Association of NZ awards and Audio Verse awards.
 
 <div style="clear:both;height:10px;"></div>
-<img src="/assets/images/team/careously.png" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+<a href="https://clairesebastian.com" target="_blank">
+  <img src="/assets/images/team/careously.png" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+</a>
 **Claire "Care" Sebastian** (they/them) is a freelance artist and content creator from the
 Chicagoland area. They studied at Savannah College of Art and Design, and graduated
 in 2021 with a BFA for Illustration in Entertainment, and a minor in printmaking.
@@ -61,7 +65,9 @@ Currently they are working as a freelance artist, with clients such as authors, 
 creators, and game developers.
 
 <div style="clear:both;height:10px;"></div>
-<img src="/assets/images/team/sai.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+<a href="https://www.viusstudios.com/" target="_blank">
+  <img src="/assets/images/team/sai.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+</a>
 **Sai Natarajan** (he/him) is a New-Zealand based freelance composer for media.
 His background is mainly in orchestral music, with some of his work being
 recorded/performed by the New Zealand Symphony Orchestra, Orchestra Wellington,
@@ -69,7 +75,9 @@ and the Manawatū Sinfonia. He has also composed music for a variety of media pr
 including video games, children's audiobooks, and short films.
 
 <div style="clear:both;height:10px;"></div>
-<img src="/assets/images/team/mika.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+<a href="https://mikattemusic.com/" target="_blank">
+  <img src="/assets/images/team/mika.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+</a>
 **Mika Cornelius** (they/them), or Mikatte Music, is a composer and sound designer based in Auckland, New Zealand.
 They completed their BMus Honours in 2021 at the University of Auckland, specialising in Composition and Sonic Arts.
 Some of Mika's work has been performed by the Auckland Philharmonia Orchestra, the New Zealand Symphony Orchestra,
