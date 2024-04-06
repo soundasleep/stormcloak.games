@@ -7,7 +7,7 @@ year:   2021
 ---
 
 I'm happy with my progress in making
-[user interfaces with HTML and CSS](/2021/12/10/user-interfaces) over the last week:
+[user interfaces with HTML and CSS](/2021/12/09/user-interfaces) over the last week:
 
 [![A better character selection panel](/assets/screenshots/2021-12-17.png)](/assets/screenshots/2021-12-17.png)
 

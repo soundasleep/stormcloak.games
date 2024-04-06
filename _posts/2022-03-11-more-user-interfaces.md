@@ -9,7 +9,7 @@ truncate_words: 75
 
 I'm deep in user interface code again.
 
-[My previous approach was fine](/2021/12/10/user-interfaces), but it was a quick and dirty implementation. I knew I'd need to
+[My previous approach was fine](/2021/12/09/user-interfaces), but it was a quick and dirty implementation. I knew I'd need to
 clean it up before I can start adding more complex interface elements (like dialogs,
 menus, events – all the things you need in a game).
 
