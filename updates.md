@@ -19,15 +19,15 @@ permalink: /updates
 </div>
 
 - [Update #13: Adaptory is part of Steam Next Fest!](https://preview.mailerlite.io/preview/797385/emails/111660179693503510) - Feb 2024
-- [Update #12: Adaptory – alpha 7 released](https://app.mailerlite.com/s5l2f6k2e6) - Dec 2023
-- [Update #11: Looking for feedback + Armageddon AKL](https://app.mailerlite.com/k2h1i1b3n0) – Oct 2023
-- [Update #10: Adaptory – alpha 6 released](https://app.mailerlite.com/j0b5z1w7m2) – Oct 2023
-- [Update #9: See you at PAX AUS + Alpha 6 sneak peek](https://app.mailerlite.com/t1l0m7n5i9) – Oct 2023
-- [Update #8: Adaptory alpha 5, Gamescom & more](https://app.mailerlite.com/r5q7z4u2f4) – Aug 2023
-- [Update #7: Adaptory – alpha 3 released](https://app.mailerlite.com/b4b2x1o9k6) – Mar 2023
-- [Update #6: Adaptory – alpha 2 released](https://app.mailerlite.com/q3m8o9w7t6) – Jan 2023
-- [Update #5: first release on itch.io!](https://app.mailerlite.com/d3e6z6s1w4) – Oct 2022
-- [Update #4: Adaptory alpha next week!](https://app.mailerlite.com/d0e4a1d4n3) – Oct 2022
-- [Update #3: announcing... Adaptory!](https://app.mailerlite.com/j9j6u5f7e1) – Jun 2022
-- [Update #2: systems, simulations, and shaders](https://app.mailerlite.com/r2b8j7w3d2) – Mar 2022
-- [Update #1: I've set up a Patreon](https://app.mailerlite.com/v1f0t1) – Nov 2021
+- [Update #12: Adaptory – alpha 7 released](/updates/update12.html) - Dec 2023
+- [Update #11: Looking for feedback + Armageddon AKL](/updates/update11.html) – Oct 2023
+- [Update #10: Adaptory – alpha 6 released](/updates/update10.html) – Oct 2023
+- [Update #9: See you at PAX AUS + Alpha 6 sneak peek](/updates/update9.html) – Oct 2023
+- [Update #8: Adaptory alpha 5, Gamescom & more](/updates/update8.html) – Aug 2023
+- [Update #7: Adaptory – alpha 3 released](/updates/update7.html) – Mar 2023
+- [Update #6: Adaptory – alpha 2 released](/updates/update6.html) – Jan 2023
+- [Update #5: first release on itch.io!](/updates/update5.html) – Oct 2022
+- [Update #4: Adaptory alpha next week!](/updates/update4.html) – Oct 2022
+- [Update #3: announcing... Adaptory!](/updates/update3.html) – Jun 2022
+- [Update #2: systems, simulations, and shaders](/updates/update2.html) – Mar 2022
+- [Update #1: I've set up a Patreon](/updates/update1.html) – Nov 2021

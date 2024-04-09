@@ -1,0 +1,1211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-GB"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css" nonce="">
+body,td,div,p,a,input {font-family: arial, sans-serif;}
+</style><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- shortcut icon -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style type="text/css" nonce="">p,body,td,div,p,a,input { font-family: 'Poppins', 'Arial', sans-serif; }</style>
+<title>Update #2: systems, simulations, and shaders</title>
+
+</head><body>
+
+<table width="100%" cellpadding="12" cellspacing="0" border="0"><tbody><tr><td><div style="overflow: hidden;"><font size="-1"><u></u>
+<div style="padding:0;margin:0;background-color:#f6f8f9">
+<img src="update2_files/unnamed_002.gif" style="display:block;height:0px;width:0px;max-width:0px;max-height:0px;overflow:hidden" width="1" height="1" border="0" alt="">
+<div role="article" aria-label="Update+%232%3A+systems%2C+simulations%2C+and+shaders">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f6f8f9" dir="ltr">
+<tbody><tr>
+<td class="m_-8414228115537811425mlTemplateContainer" align="center">
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mobileHide">
+<tbody><tr>
+<td align="center">
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td colspan="2" height="20"></td>
+</tr>
+<tr>
+<td align="left" style="font-family:'Poppins',sans-serif;color:#111111;font-size:12px;line-height:18px"></td>
+<td align="right" style="font-family:'Poppins',sans-serif;color:#111111;font-size:12px;line-height:18px">
+<!-- view in browser link -->
+</td>
+</tr>
+<tr>
+<td colspan="2" height="20"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" width="640">
+<tbody><tr>
+<td>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="30" class="m_-8414228115537811425spacingHeight-30" style="line-height:30px;min-height:30px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzNDgmZD1sMmsweTVl.dZOEmrTZZbM_T7w_RVpZ3GxGFH7zVm7J05OxfYgeD3c" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzNDgmZD1sMmsweTVl.dZOEmrTZZbM_T7w_RVpZ3GxGFH7zVm7J05OxfYgeD3c&amp;source=gmail&amp;ust=1712702608158000&amp;usg=AOvVaw1PRKW99FODeKUDrwyohK7b">
+<img src="update2_files/unnamed_008.png" id="m_-8414228115537811425logoBlock-4" border="0" alt="" width="273" style="display:block">
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="30" class="m_-8414228115537811425spacingHeight-30" style="line-height:30px;min-height:30px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" id="m_-8414228115537811425imageBlock-6">
+<img src="update2_files/unnamed_010.png" border="0" alt="" width="640" style="display:block">
+</td>
+</tr>
+<tr>
+<td height="40" class="m_-8414228115537811425spacingHeight-40"></td>
+</tr>
+<tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#111111;text-transform:none;font-style:normal;text-decoration:none;text-align:center">Welcome to the March update</td>
+</tr>
+<tr>
+<td height="40" class="m_-8414228115537811425spacingHeight-40"></td>
+</tr>
+<tr>
+<td align="left" id="m_-8414228115537811425bodyText-6" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#6f6f6f">
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">Thank you 
+for signing up to hear updates about my game, which is shaping up to be a
+ fascinating and deep 2D base builder/colony/survival sim! If you 
+haven't been keeping track on <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzNjImZD1wMW01cjB6.pjtZFGow2puJFpaidtvenO5tLpQUROFIUigY3FirN0c" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzNjImZD1wMW01cjB6.pjtZFGow2puJFpaidtvenO5tLpQUROFIUigY3FirN0c&amp;source=gmail&amp;ust=1712702608158000&amp;usg=AOvVaw3_hH1IbKLKGCINv9MSlZEw">the blog</a> or <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzNzUmZD1uNnUzYzRs.RdkGO9VKiVF6ePPt0KDHay11Z8_Q3__mnd9o6lIRO_8" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzNzUmZD1uNnUzYzRs.RdkGO9VKiVF6ePPt0KDHay11Z8_Q3__mnd9o6lIRO_8&amp;source=gmail&amp;ust=1712702608158000&amp;usg=AOvVaw2owBd6AYZ6TXG3NLv8x7O-">on Patreon</a>, here's what's happened over the last few
+months.<br></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="40" class="m_-8414228115537811425spacingHeight-40" style="line-height:40px;min-height:40px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-top:1px solid #ededf3;border-collapse:initial">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#111111;text-transform:none;font-style:normal;text-decoration:none;text-align:center">Milestones for the year</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td id="m_-8414228115537811425bodyText-12" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#6f6f6f">
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">At the start of this year, I <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzODkmZD14MHg1YTNj.oScGLhON_QQUmLM-_U_1JFp5t6_MGU31VWGXp7582TE" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDEzODkmZD14MHg1YTNj.oScGLhON_QQUmLM-_U_1JFp5t6_MGU31VWGXp7582TE&amp;source=gmail&amp;ust=1712702608158000&amp;usg=AOvVaw1g9vWF9Qf-NQIGZSK1s6uk">made my very first game design document</a>, and realised there is a&nbsp;<em>lot</em>
+ that I'd like to add to the game. I'm very aware this is my first 
+commercial game, so the more I can cut or push out, the better.</p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">In January, I came up with some of the <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MDEmZD1hNWU3aDlw.6ePe3D3FeUqxO4jXhVomsFn32pSYqG8PbYbYLTnWpy4" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MDEmZD1hNWU3aDlw.6ePe3D3FeUqxO4jXhVomsFn32pSYqG8PbYbYLTnWpy4&amp;source=gmail&amp;ust=1712702608158000&amp;usg=AOvVaw0zW8lv-_CmVYJurJa90r8B">first milestones</a> I'm planning to hit:</p>
+<ul style="margin-top:0px;margin-bottom:10px">
+<li style="margin-top:0px;margin-bottom:5px">March 2022	- Core game engine and user interface finished ✅; final simulation infrastructure&nbsp;✅</li>
+<li style="margin-top:0px;margin-bottom:5px">May 2022	- Pawns, game events, and items</li>
+<li style="margin-top:0px;margin-bottom:5px">July 2022	- Pawn orders and priorities, buildings, pawn skills, and metabolism</li>
+</ul>
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">And <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MTAmZD1uN3A1dzlk.Hzr0pPKYAAkuxCNVDxQh9hgJmQZROxyMRBaoxV-vLKg" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MTAmZD1uN3A1dzlk.Hzr0pPKYAAkuxCNVDxQh9hgJmQZROxyMRBaoxV-vLKg&amp;source=gmail&amp;ust=1712702608158000&amp;usg=AOvVaw3tvmRH18yYTe10rjhsnANV">by July</a>,
+I'd like to have the first release of a playable alpha for my Patreons.
+By then I'm hoping it'll be a reasonably entertaining sandbox game with
+at least 30 minutes of gameplay.</p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-top:1px solid #ededf3;border-collapse:initial">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#111111;text-transform:none;font-style:normal;text-decoration:none;text-align:center">A realistic materials simulation</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 0px">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" id="m_-8414228115537811425imageBlock-18">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MTkmZD1uNWw2czJq.MKrv5wyHvT3qibW9UL5FG3NkjZqSdN5X9q-vm33yhhE" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MTkmZD1uNWw2czJq.MKrv5wyHvT3qibW9UL5FG3NkjZqSdN5X9q-vm33yhhE&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw2sxz5QMr00PP-KYr2TAkfY"><img src="update2_files/unnamed_003.gif" width="640" alt="" border="0" style="display:block"></a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td id="m_-8414228115537811425bodyText-20" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#6f6f6f">
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">The game will have a somewhat-realistic <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MjkmZD1jNGI5ZDBv.a5yqsbcpOpYY2uQCW6K-VXpGXuMW0FBPoI_t2b3ngb4" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0MjkmZD1jNGI5ZDBv.a5yqsbcpOpYY2uQCW6K-VXpGXuMW0FBPoI_t2b3ngb4&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw2ROnjy-HfTMHi0ZPlOY5nZ">element simulation</a>
+behind the scenes.<br></p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">Liquids will freeze solid if they get too cold,
+or boil to gas if they get too hot; materials will transfer heat based
+on their <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NDMmZD1kOXoweTll.dJ9M0ovjCOR0SR27lrrPzWEM0P0AL8UEgLNrpdnwaeM" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NDMmZD1kOXoweTll.dJ9M0ovjCOR0SR27lrrPzWEM0P0AL8UEgLNrpdnwaeM&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw2qFQjGUV-A_wCKid8CKnCz">thermal conductivity</a>; and liquids will float above denser liquids.</p>
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">Most recently, I've <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NTUmZD16NHU4azly.dRD1mQmUhf1MMQM_vAgpwtEdkd7p84BuRr_luQFbFCc" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NTUmZD16NHU4azly.dRD1mQmUhf1MMQM_vAgpwtEdkd7p84BuRr_luQFbFCc&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw2tQcYxJdaqTgnKHOYw0sbY">identified the 43 elements and materials</a>
+ that I want in the game. These include standard materials, like water, 
+ice, steam and oxygen – but also some more esoteric ones, like silicon 
+gas and molten gold. The plan is to use these materials in creative 
+gameplay mechanics.</p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-top:1px solid #ededf3;border-collapse:initial">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#111111;text-transform:none;font-style:normal;text-decoration:none;text-align:center">Art and shaders</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 0px">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" id="m_-8414228115537811425imageBlock-26">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NjQmZD10NXc3YjFt.WuN79JxX13xGCNbsfve6FNce5-Nz7T3zpWKmS1mS_mA" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NjQmZD10NXc3YjFt.WuN79JxX13xGCNbsfve6FNce5-Nz7T3zpWKmS1mS_mA&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw3sIkE5hpEF1i_-G_nPHsYO"><img src="update2_files/unnamed_004.gif" width="640" alt="" border="0" style="display:block"></a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td id="m_-8414228115537811425bodyText-28" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#6f6f6f">
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">I've been rapidly increasing my skills with art, <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NzEmZD16OHkwcDZn.wXaDyHwjsxXg5rWZOPl_k30sR_G6EFCMcLLdlL5Oehs" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0NzEmZD16OHkwcDZn.wXaDyHwjsxXg5rWZOPl_k30sR_G6EFCMcLLdlL5Oehs&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw16r1LPN0ub9iFJVdUVf-Ym">tilesets</a>,
+ and shaders (GLSL). They're still a black magic and deeply mysterious, 
+but with the help of some new friends, I'm starting to make things that I
+ think look pretty cool.<br></p>
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">This included <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0ODEmZD1uMWkwajRv.rkPUfq7DYUlVDdZAPphHPSZBZs0uipVKC-79XFIRzBE" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0ODEmZD1uMWkwajRv.rkPUfq7DYUlVDdZAPphHPSZBZs0uipVKC-79XFIRzBE&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw1q6gahmp8N4bIXMlwQDT1H">inventing a technique</a> to try and display "velocity" or "momentum" of liquids and gases; if you breach a high-pressure pocket of gas, it'll gush out!</p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-top:1px solid #ededf3;border-collapse:initial">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#111111;text-transform:none;font-style:normal;text-decoration:none;text-align:center">Improving the game engine</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 0px">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" id="m_-8414228115537811425imageBlock-34">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0OTAmZD1mNm4yZzRi.IAHNPkVBr71tNaAujnoJrIGHnGX7Ca2WI53TsME0Exg" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0OTAmZD1mNm4yZzRi.IAHNPkVBr71tNaAujnoJrIGHnGX7Ca2WI53TsME0Exg&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw0iseHiccEpAfJz40AC4YO0"><img src="update2_files/unnamed.gif" width="640" alt="" border="0" style="display:block"></a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td id="m_-8414228115537811425bodyText-36" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#6f6f6f">
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">My game engine of choice&nbsp;(<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0OTgmZD11N3MycDVx.eIcl3TXxDY2yPw_eH2-4VMj724nCUqkBULJHghxPm74" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE0OTgmZD11N3MycDVx.eIcl3TXxDY2yPw_eH2-4VMj724nCUqkBULJHghxPm74&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw3yzau7b53vCP6lyhyv_tUP">libgdx</a>)
+ hits the sweet spot – it's got tons of features out-of-the-box, but is 
+also lightweight enough to be tweaked and customised to the needs of 
+this resource-heavy game.&nbsp;However there's still some stuff I need 
+to build and integrate myself.</p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">User 
+interfaces are one of the first areas I've tackled, because the UI will 
+have such a significant impact over the lifetime of this game, and most 
+game developers find the UI side the most frustrating. As a reformed web
+ developer, <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MDcmZD1kNGsyZTRs.Vc2dTkhzkNxr38EhuSAOHExiHda4efGz39osGICSBxE" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MDcmZD1kNGsyZTRs.Vc2dTkhzkNxr38EhuSAOHExiHda4efGz39osGICSBxE&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw335lmoc4AN5DyFES0MHcKn">I wondered</a> if I could build on HTML/CSS for the UI.</p>
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">I'm pretty happy with the result; to date&nbsp;I've built a <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MTQmZD1jNGk1ZTJ4.VYQo4Rmdq--h121Acbsgc5EGmiTINNreutLnTLYDMkg" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#09c269;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MTQmZD1jNGk1ZTJ4.VYQo4Rmdq--h121Acbsgc5EGmiTINNreutLnTLYDMkg&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw0YWkOCYy9bi4NBbP0Fs6on">debug console and sandbox tools</a> (which I use to create the demo videos). I also added hotreloading for faster UI prototyping.<br></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-top:1px solid #ededf3;border-collapse:initial">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#111111;text-transform:none;font-style:normal;text-decoration:none;text-align:center">What's next?</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td id="m_-8414228115537811425bodyText-42" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#6f6f6f">
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">Now that I've completed the core game engine and simulation infrastructure, my next focus area will be on gameplay mechanics:</p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%"><strong>Pawns </strong>are your little <del>minions</del>
+ friends you see running around in the demos. They're the ones that you 
+don't control directly, but instruct to do various activities; at the 
+moment, they can dig, build, breathe, and die. They're not very smart or
+ good at expressing their feelings yet.</p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%"><strong>Events </strong>will
+ be a framework for adding random, triggered, tutorial, or gameplay 
+events, and I think I'll be using this for introducing and moving along 
+the story, too. Perhaps uncovering an artifact will start a new 
+challenge.</p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%"><strong>Items </strong>are
+ objects in the game world that will be used in other mechanics. For 
+example, to build a ladder, you have to first dig out the material, 
+which collects in a pile on the ground; a Pawn can then pick up some of 
+the material and use it to build the ladder.</p>
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">Also, the game hasn't told me its name yet... but as soon as it has, I'll be sharing the news!<br></p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td bgcolor="#203649" align="center" valign="top">
+<table role="presentation" cellpadding="0" border="0" align="center" width="640" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="560" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="100" class="m_-8414228115537811425spacingHeight-50"></td>
+</tr>
+<tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:28px;font-weight:700;line-height:150%;color:#ffffff;text-transform:none;font-style:normal;text-decoration:none;text-align:center">Staying up to date</td>
+</tr>
+<tr>
+<td height="15" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+<tr>
+<td id="m_-8414228115537811425bodyText-44" style="font-family:'Poppins',sans-serif;font-size:14px;line-height:150%;color:#ffffff">
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">If you'd like to follow my work on <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MjMmZD1rMHU3czd0.VNuUXR5pdP2XsLHHtInrL3FlaC5qeECuEzlKkS7VfZw" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#ffffff;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MjMmZD1rMHU3czd0.VNuUXR5pdP2XsLHHtInrL3FlaC5qeECuEzlKkS7VfZw&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw09DERq2OLCF5VpkwngG0Ij">Twitter</a> or&nbsp;<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MjkmZD1lNXQ4bjZy.Ci3YF9pRmDyiXYOKlN9Gk6uLKtsJ-nVc-7UPPkuduFc" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#ffffff;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MjkmZD1lNXQ4bjZy.Ci3YF9pRmDyiXYOKlN9Gk6uLKtsJ-nVc-7UPPkuduFc&amp;source=gmail&amp;ust=1712702608159000&amp;usg=AOvVaw3jMdE3O64LNXW3cJ9s8VJp">YouTube</a>, that would help me a lot.</p>
+<p style="margin-top:0px;margin-bottom:10px;line-height:150%">Not only 
+will you see the latest updates (rather than waiting for this bi-monthly
+ email), follower numbers will also help me in the future with 
+publicity, social media and influencer jazz.</p>
+<p style="margin-top:0px;margin-bottom:0px;line-height:150%">Similarly, 
+if you have any gamer friends that might be interested in this sandbox 
+base-building game – please let them know or forward them this email! 
+The more the better.</p>
+</td>
+</tr>
+<tr>
+<td height="25" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+<tr>
+<td align="center" class="m_-8414228115537811425mlContentButton" style="font-family:'Poppins',sans-serif">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="" style="border-collapse:separate;border-radius:3px" class="m_-8414228115537811425mlContentTable" bgcolor="#2d8cff">
+<tbody><tr>
+<td align="center" valign="middle" style="padding:15px;border-radius:3px;color:#ffffff;font-size:14px;line-height:20px">
+<a class="m_-8414228115537811425mlContentButton" href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MzQmZD1iM2Y1cjRu.7AZvdVKDIA1L5pSunZdh8Xh1vsk4pEBOBDAGhTTlEZc" style="font-family:'Poppins',sans-serif;color:#ffffff;border-radius:3px;display:inline-block;font-size:14px;font-weight:400;line-height:20px;text-align:center;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1MzQmZD1iM2Y1cjRu.7AZvdVKDIA1L5pSunZdh8Xh1vsk4pEBOBDAGhTTlEZc&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw38WuaOa_GNUoyWeDTuhg5E">@stormcloakgames on Twitter</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="100" class="m_-8414228115537811425spacingHeight-50"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" border="0" bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid;border-color:#e1e8ed;border-radius:4px;border-collapse:separate" width="100%">
+<tbody>
+<tr>
+<td style="padding:20px">
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td width="36">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NDAmZD1tMWsxdDhp.1b1k_pjSkWW__V9nmPtDV4Et8ZbVQWivprcb9YKtcXQ" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NDAmZD1tMWsxdDhp.1b1k_pjSkWW__V9nmPtDV4Et8ZbVQWivprcb9YKtcXQ&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw3nu2ssHZrtzyqrZAVW4Kqa"><img id="m_-8414228115537811425logoBlock-46" width="36" border="0" alt="Stormcloak Games" src="update2_files/unnamed_005.png" style="display:block"></a>
+</td>
+<td width="8"></td>
+<td align="left">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NDcmZD1oMnY1djNk.G-TKUAh0DzPS6cEevEok2EBM7tPJ21_g6UsYRAG4TEk" style="color:#292f33;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:bold;line-height:20px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NDcmZD1oMnY1djNk.G-TKUAh0DzPS6cEevEok2EBM7tPJ21_g6UsYRAG4TEk&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw0tKo5HSei4jNjX3ulPfbGz">Stormcloak Games</a>
+<br>
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NTMmZD1mN3gyaDh2.1gBKjr6ROnO-lNOf_X1UzRPhZu0qmRKBMtCky96xRLY" style="color:#86999d;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:16px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NTMmZD1mN3gyaDh2.1gBKjr6ROnO-lNOf_X1UzRPhZu0qmRKBMtCky96xRLY&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw2gwVVNTx7_NVEbd3qZM48V">@StormcloakGames</a>
+</td>
+<td align="right" valign="middle">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NTgmZD11M3UyajBq.gtJ8LjG9uiAb78xMZMEPSiReZey0BXv7UtVt3uW48j4" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NTgmZD11M3UyajBq.gtJ8LjG9uiAb78xMZMEPSiReZey0BXv7UtVt3uW48j4&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw1UErypNlhC59r9ZMHuVIeI">
+<img src="update2_files/unnamed_007.png" width="18" alt="View on Twitter" style="display:block" border="0">
+</a>
+</td>
+</tr>
+<tr>
+<td height="11" colspan="4"></td>
+</tr>
+</tbody>
+</table>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="color:#1d2129;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:20px">
+<p>
+Added better sandbox tools - play around with the element simulation <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NjMmZD1oNGoxdzVz.Po1RXDPkjxKkjVayboOnlyhnwclAKC2ZCcJK9FPCZtA" style="color:#0084b4;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NjMmZD1oNGoxdzVz.Po1RXDPkjxKkjVayboOnlyhnwclAKC2ZCcJK9FPCZtA&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw3Sv_gxDjHs4NMYMY5S-ZzA">#gamedev</a> <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NjgmZD12OWg5Yjd2.u8_lTyl3RgrhL7V-Upougf612l19nW9rcj65GhflH98" style="color:#0084b4;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NjgmZD12OWg5Yjd2.u8_lTyl3RgrhL7V-Upougf612l19nW9rcj65GhflH98&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw1zfPM2FTyWnapy3134jdq_">#screenshotsaturday</a>
+</p>
+</td>
+</tr>
+<tr>
+<td height="11"></td>
+</tr>
+<tr>
+<td>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border:1px solid;border-color:#e1e8ed;border-radius:4px;border-collapse:separate" width="100%">
+<tbody>
+<tr>
+<td>
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NzQmZD1qNnoyZjJt.SEU2Tq8GHMZ-wWL8Xqdhb_DVqOcamgIjPoqAfd9xFTU" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1NzQmZD1qNnoyZjJt.SEU2Tq8GHMZ-wWL8Xqdhb_DVqOcamgIjPoqAfd9xFTU&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw1EGwNMh6BJZ8kn906eg7vf">
+<img style="border-top-left-radius:4px;border-top-right-radius:4px;width:100%;display:block" src="update2_files/unnamed.jpg" border="0">
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<div style="color:#697882;font-size:14px;font-family:Helvetica,Arial,sans-serif;line-height:20px;padding-top:4px">
+<a href="#m_-8414228115537811425_" style="color:#697882;text-decoration:none">7:00 AM - Mar 20, 2022</a>
+</div>
+</td>
+</tr>
+<tr>
+<td align="left" style="padding-top:20px">
+<table role="presentation" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1ODImZD1mOGM3ZDFt.1jPaFboWRZ7uVfO9BMVKRMYrMZqKH-u9OQ0RkdrlWAM" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1ODImZD1mOGM3ZDFt.1jPaFboWRZ7uVfO9BMVKRMYrMZqKH-u9OQ0RkdrlWAM&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw1uJi-YKCo4VxWy6QkeGXvt">
+<img src="update2_files/unnamed_003.png" height="20" style="display:block" border="0">
+</a>
+</td>
+<td width="4"></td>
+<td style="color:#aab8c2;font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:16px">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1ODYmZD1vMW4xeTRk.3oPTsrlGuViHm1c-wdaal30EZJWy6oMgtjHPg--6NJ0" style="color:#697882;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1ODYmZD1vMW4xeTRk.3oPTsrlGuViHm1c-wdaal30EZJWy6oMgtjHPg--6NJ0&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw3tJpzlldsDSqJCc0-caRkr">4</a>
+</td>
+<td width="20"></td>
+<td>
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1ODkmZD1vN2Y2YjVq.K-MjJeLaI7-D3KEuxxmtMgYYzeLGtgI6vNtJiCudYf0" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1ODkmZD1vN2Y2YjVq.K-MjJeLaI7-D3KEuxxmtMgYYzeLGtgI6vNtJiCudYf0&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw0TgeJgg-GiNg4-PASAKvWT">
+<img src="update2_files/unnamed_006.png" height="16" style="display:block" border="0">
+</a>
+</td>
+<td width="4"></td>
+<td style="color:#aab8c2;font-family:Helvetica,Arial,sans-serif;font-size:12px;line-height:16px">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1OTImZD12Nmg5ZjV1.2_fdw1VQM4BUGVlvdnjd9xcZOsBGJfN9Ro9_fgSIiHA" style="color:#697882;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1OTImZD12Nmg5ZjV1.2_fdw1VQM4BUGVlvdnjd9xcZOsBGJfN9Ro9_fgSIiHA&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw3rz-yQ0dAKbM-YT1li8yK1">See
+StormcloakGames's other Tweets</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="border-top:1px solid #ededf3;border-collapse:initial">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center" style="font-family:'Poppins',sans-serif;font-size:13px;font-weight:400;line-height:150%;color:#09c269;text-transform:none;font-style:normal;text-decoration:none;text-align:center">Keep updated with the latest news by subscribing:</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" align="center" width="100%" border="0" style="width:100%;min-width:100%">
+<tbody><tr>
+<td valign="top">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="left" width="170" class="m_-8414228115537811425mlContentTable m_-8414228115537811425marginBottom" style="width:170px;min-width:170px">
+<tbody><tr>
+<td>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;min-width:100%">
+<tbody><tr>
+<td align="center" class="m_-8414228115537811425mlContentButton" style="font-family:'Poppins',sans-serif">
+<a class="m_-8414228115537811425mlContentButton" href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1OTgmZD1zMXUyeTdt.9OeTlgSUq-beiHygu0fYDdud0HYTE9VRocrRl8oV47c" style="font-family:'Poppins',sans-serif;background-color:#2d8cff;border-radius:3px;color:#ffffff;display:inline-block;font-size:13px;font-weight:400;line-height:19px;padding:15px 0 15px 0;text-align:center;text-decoration:none;width:170px" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE1OTgmZD1zMXUyeTdt.9OeTlgSUq-beiHygu0fYDdud0HYTE9VRocrRl8oV47c&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw3S6DHVnuh2_2NmwlEt9aWe">Patreon (frequent)</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="left" width="25" class="m_-8414228115537811425mobileHide" style="width:25px;min-width:25px">
+<tbody><tr>
+<td width="25" height="25" align="center"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="left" width="170" class="m_-8414228115537811425mlContentTable m_-8414228115537811425marginBottom" style="width:170px;min-width:170px">
+<tbody><tr>
+<td>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;min-width:100%">
+<tbody><tr>
+<td align="center" class="m_-8414228115537811425mlContentButton" style="font-family:'Poppins',sans-serif">
+<a class="m_-8414228115537811425mlContentButton" href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MDQmZD12NmgxYTFh.FOfBwOyGaOjPmwmWcpDl0D1qtS3V28F-10ZuzTQ3tZg" style="font-family:'Poppins',sans-serif;background-color:#2d8cff;border-radius:3px;color:#ffffff;display:inline-block;font-size:13px;font-weight:400;line-height:19px;padding:15px 0 15px 0;text-align:center;text-decoration:none;width:170px" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MDQmZD12NmgxYTFh.FOfBwOyGaOjPmwmWcpDl0D1qtS3V28F-10ZuzTQ3tZg&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw0mx7WDcP1EUbnsUsdBOibZ">Blog (weekly)</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="right" width="170" class="m_-8414228115537811425mlContentTable" style="width:170px;min-width:170px">
+<tbody><tr>
+<td>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100%;min-width:100%">
+<tbody><tr>
+<td align="center" class="m_-8414228115537811425mlContentButton" style="font-family:'Poppins',sans-serif">
+<a class="m_-8414228115537811425mlContentButton" href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MTEmZD1hMGY4ZjVu.1LQfBH6ja4aOYL2uytHzFAeHHuuGpwkJO1VJaoWpxDo" style="font-family:'Poppins',sans-serif;background-color:#2d8cff;border-radius:3px;color:#ffffff;display:inline-block;font-size:13px;font-weight:400;line-height:19px;padding:15px 0 15px 0;text-align:center;text-decoration:none;width:170px" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MTEmZD1hMGY4ZjVu.1LQfBH6ja4aOYL2uytHzFAeHHuuGpwkJO1VJaoWpxDo&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw2Q8PPpW4jiaBWryfHrlMao">Mailing list (sometimes)</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="20" class="m_-8414228115537811425spacingHeight-20" style="line-height:20px;min-height:20px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table align="center" border="0" bgcolor="#ffffff" class="m_-8414228115537811425mlContentTable" cellpadding="0" cellspacing="0" width="640">
+<tbody><tr>
+<td>
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="m_-8414228115537811425mlContentTable" style="width:640px;min-width:640px" width="640">
+<tbody><tr>
+<td>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="30" class="m_-8414228115537811425spacingHeight-30" style="line-height:30px;min-height:30px"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="left" style="font-family:'Poppins',sans-serif;font-size:14px;font-weight:700;line-height:150%;color:#111111">Stormcloak Games</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="10"></td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="center" style="padding:0px 40px" class="m_-8414228115537811425mlContentOuter">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="100%">
+<tbody><tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="left" width="267" style="width:267px;min-width:267px" class="m_-8414228115537811425mlContentTable m_-8414228115537811425marginBottom">
+<tbody><tr>
+<td align="left" id="m_-8414228115537811425footerText-57" style="font-family:'Poppins',sans-serif;font-size:12px;line-height:150%;color:#111111">
+<p style="margin-top:0px;margin-bottom:0px"><a href="mailto:hello@stormcloak.games" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#111111;text-decoration:none" target="_blank">hello@stormcloak.games</a><br></p>
+</td>
+</tr>
+<tr>
+<td height="25" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+<tr>
+<td align="center">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="left">
+<tbody><tr>
+<td align="center" width="24" style="padding:0px 5px">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MTUmZD1jNGowdTJ6.4NFMokjnvNiKiUcxleZmif1qIrqUY9V11YF58WTSIvw" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MTUmZD1jNGowdTJ6.4NFMokjnvNiKiUcxleZmif1qIrqUY9V11YF58WTSIvw&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw05mo-Q6I8kNsnrEDKMzLSM">
+<img width="24" alt="website" src="update2_files/unnamed_009.png" style="display:block" border="0">
+</a>
+</td>
+<td align="center" width="24" style="padding:0px 5px">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MTgmZD13N3IzdzZz.LpalSvOVFW0dnWSHWOaZ0F6VW67-MouDMJLx2QpoFs0" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MTgmZD13N3IzdzZz.LpalSvOVFW0dnWSHWOaZ0F6VW67-MouDMJLx2QpoFs0&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw0LUSUTmlniz6l8FqRorSSI">
+<img width="24" alt="twitter" src="update2_files/unnamed.png" style="display:block" border="0">
+</a>
+</td>
+<td align="center" width="24" style="padding:0px 5px">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MjEmZD1hN3A3YjN1.HnDtIa9bgR9Nv6qY9oUEjI86ICS1LE6vI8EyftkQccY" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MjEmZD1hN3A3YjN1.HnDtIa9bgR9Nv6qY9oUEjI86ICS1LE6vI8EyftkQccY&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw1pIp3NkjXSBwnnlNhqxe5Q">
+<img width="24" alt="youtube" src="update2_files/unnamed_002.png" style="display:block" border="0">
+</a>
+</td>
+<td align="center" width="24" style="padding:0px 5px">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MjQmZD1hN282YTB5.KjuDww5ORU9Cmhsbm6R1QpPiOIkvB2A7qN4uzxB34Oo" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MjQmZD1hN282YTB5.KjuDww5ORU9Cmhsbm6R1QpPiOIkvB2A7qN4uzxB34Oo&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw0XYSmS6FcyLo7s5N5rl0OZ">
+<img width="24" alt="patreon" src="update2_files/unnamed_004.png" style="display:block" border="0">
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="right" width="267" style="width:267px;min-width:267px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td align="right" id="m_-8414228115537811425footerUnsubscribeText-57" style="font-family:'Poppins',sans-serif;font-size:12px;line-height:150%;color:#111111">
+<p style="margin-top:0px;margin-bottom:0px">You received this email because you <a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MjcmZD1qN3U0bTdv.3GQn2So4miC_F0IwbbIxX6gVJ5eWoaKu9JDS7muqnwo" style="word-break:break-word;font-family:'Poppins',sans-serif;color:#111111;text-decoration:underline" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MjcmZD1qN3U0bTdv.3GQn2So4miC_F0IwbbIxX6gVJ5eWoaKu9JDS7muqnwo&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw2T11u0iQKcGe92i_aKq4bI">signed up</a> on our website.</p>
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="right" style="font-family:'Poppins',sans-serif;font-size:12px;line-height:150%;color:#111111">
+<!-- unsubscribe link -->
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="40" class="m_-8414228115537811425spacingHeight-40" style="line-height:40px;min-height:40px"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="640" style="width:640px;min-width:640px" class="m_-8414228115537811425mlContentTable">
+<tbody><tr>
+<td height="40" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MzAmZD12M2sxczBr.ADzgcD-7yGyckDvkMtovDyry2omxlj00ldA5ByPSekU" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en-GB&amp;q=https://click.mlsend.com/link/c/YT0xOTE3OTMwMzQ2NDE0ODcyNTkxJmM9ajRqMyZlPTAmYj05NTA2NDE2MzAmZD12M2sxczBr.ADzgcD-7yGyckDvkMtovDyry2omxlj00ldA5ByPSekU&amp;source=gmail&amp;ust=1712702608160000&amp;usg=AOvVaw3qST7I9kHxPce3YcpWrpZ2">
+<img width="100" border="0" alt="Sent by MailerLite" src="update2_files/unnamed_011.png" style="display:block">
+</a>
+</td>
+</tr>
+<tr>
+<td height="40" class="m_-8414228115537811425spacingHeight-20"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</font></div></td></tr></tbody></table>
+<script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-549M6W985W');
+}
+</script>
+</body></html>
+
