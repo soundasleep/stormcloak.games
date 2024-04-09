@@ -18,8 +18,9 @@ permalink: /updates
   <div class="ml-embedded" data-form="DGU4vx"></div>
 </div>
 
-- [Update #13: Adaptory is part of Steam Next Fest!](https://preview.mailerlite.io/preview/797385/emails/111660179693503510) - Feb 2024
-- [Update #12: Adaptory – alpha 7 released](/updates/update12.html) - Dec 2023
+- [Update #14: Adaptory's UI update is live!](https://preview.mailerlite.io/preview/797385/emails/118081528204887677) – Apr 2024
+- [Update #13: Adaptory is part of Steam Next Fest!](https://preview.mailerlite.io/preview/797385/emails/111660179693503510) – Feb 2024
+- [Update #12: Adaptory – alpha 7 released](/updates/update12.html) – Dec 2023
 - [Update #11: Looking for feedback + Armageddon AKL](/updates/update11.html) – Oct 2023
 - [Update #10: Adaptory – alpha 6 released](/updates/update10.html) – Oct 2023
 - [Update #9: See you at PAX AUS + Alpha 6 sneak peek](/updates/update9.html) – Oct 2023
