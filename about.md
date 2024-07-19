@@ -83,12 +83,3 @@ They completed their BMus Honours in 2021 at the University of Auckland, special
 Some of Mika's work has been performed by the Auckland Philharmonia Orchestra, the New Zealand Symphony Orchestra,
 and the Auckland Chamber Choir.
 Alongside _Adaptory_, they are also a sound designer for Black Salt Games' internationally acclaimed fishing/horror video game _Dredge_.
-
-<div style="clear:both;height:10px;"></div>
-<img src="/assets/images/team/sabrina.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
-**Sabrina Harms** (she/her) is an artist and communications specialist based in Rotorua, New Zealand.
-She was a featured performer in Chicago Women's Theatre Alliance Showcase and
-her plays and solo shows have been featured in multiple Fringe Festival circuits.
-She has managed social media brand development for YouTube channels, Twitch streamers,
-and film, theatre, and philanthropic organizations, and has taught
-acting and empathetic communication in numerous institutions both locally and internationally.
