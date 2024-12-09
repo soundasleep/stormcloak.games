@@ -25,13 +25,13 @@ layout: default
           {%- if post.description -%}
             {{ post.description | markdownify }}
             <a class="read-more-link" href="{{ post.url | relative_url }}">
-              read more
+              (continue reading&hellip;)
             </a>
           {%- else -%}
             {%- assign truncate_words_value = post.truncate_words | default: site.truncate_words | default: 50 -%}
             {{ post.content | markdownify | truncatewords: truncate_words_value }}
             <a class="read-more-link" href="{{ post.url | relative_url }}">
-              read more
+              (continue reading&hellip;)
             </a>
           {%- endif -%}
         </li>
