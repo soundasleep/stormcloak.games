@@ -18,7 +18,8 @@ permalink: /updates
   <div class="ml-embedded" data-form="DGU4vx"></div>
 </div>
 
-- [Update #16: Adaptory at PAX Aus next week!](https://preview.mailerlite.io/preview/797385/emails/133850051572139579) - Sep 2024
+- [Update #17: Adaptory Alpha 11 is live!](https://preview.mailerlite.io/preview/797385/emails/144092623048541950) – Jan 2025
+- [Update #16: Adaptory at PAX Aus next week!](https://preview.mailerlite.io/preview/797385/emails/133850051572139579) – Sep 2024
 - [Update #15: Adaptory Alpha 10 + TactiCon](https://preview.mailerlite.io/preview/797385/emails/127152138282337860) – Jul 2024
 - [Update #14: Adaptory's UI update is live!](https://preview.mailerlite.io/preview/797385/emails/118081528204887677) – Apr 2024
 - [Update #13: Adaptory is part of Steam Next Fest!](https://preview.mailerlite.io/preview/797385/emails/111660179693503510) – Feb 2024
