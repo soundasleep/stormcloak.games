@@ -31,11 +31,12 @@ and quarterly updates to our [mailing list](updates.md).
 <a href="https://jevon.org" target="_blank">
   <img src="/assets/images/team/facebook-2016.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
 </a>
-**Jevon Wright** (she/her) is a software engineer, community volunteer, musician, and an avid
+**Jevon Wright** (she/her), the solo developer of Adaptory,
+is a software engineer, community volunteer, musician, and an avid
 game designer based in Te Whanganui-a-Tara, Aotearoa. She has been making
 video games since she was 12, and received her PhD in Computer Science from Massey University in 2011.
 Jevon has worked professionally in New Zealand's web and software industry for over two decades
-as a software engineer, front-end lead, team lead, and most recently for Xero as a Solutions Architect.
+as a software engineer, front-end lead, team lead, and more recently for Xero as a Solutions Architect.
 
 <div style="clear:both;height:10px;"></div>
 <img src="/assets/images/team/cass2.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
@@ -66,11 +67,11 @@ and the Manawatū Sinfonia. He has also composed music for a variety of media pr
 including video games, children's audiobooks, and short films.
 
 <div style="clear:both;height:10px;"></div>
-<a href="https://mikattemusic.com/" target="_blank">
-  <img src="/assets/images/team/mika.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+<a href="https://orcabirdaudio.ca/" target="_blank">
+  <img src="/assets/images/team/evan.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
 </a>
-**Mika Cornelius** (they/them), or Mikatte Music, is a composer and sound designer based in Auckland, New Zealand.
-They completed their BMus Honours in 2021 at the University of Auckland, specialising in Composition and Sonic Arts.
-Some of Mika's work has been performed by the Auckland Philharmonia Orchestra, the New Zealand Symphony Orchestra,
-and the Auckland Chamber Choir.
-Alongside _Adaptory_, they are also a sound designer for Black Salt Games' internationally acclaimed fishing/horror video game _Dredge_.
+**Evan Burman** (he/him) is a freelance composer and audio designer based out of Montreal, Quebec.
+Evan's been creating and playing music since the age of 13, but towards the end of 2020
+he began pivoting towards the world of film and games.
+Since completing his bachelor's of jazz performance at the University of Montreal
+Evan has worked on several games, filling roles such as composer, music designer, dialogue lead, sound designer, technical audio integrator, and lead audio.
