@@ -41,7 +41,7 @@ Some of the automation buildings coming in Adaptory EA will include (please note
 all art is still WIP):
 
 | **Temperature sensor** | Sends _true_ when the ambient temperature is above or below the configured value. | <img src="/assets/screenshots/2025-02-04-sensor-temperature.png" class="in-table"> |
-| **Pressure sensor** | Sends _true_ when the ambient temperature is above or below the configured value. | <img src="/assets/screenshots/2025-02-04-sensor-mass.png" class="in-table"> |
+| **Pressure sensor** | Sends _true_ when the ambient pressure is above or below the configured value. | <img src="/assets/screenshots/2025-02-04-sensor-mass.png" class="in-table"> |
 | **Element sensor** | Sends _true_ when the ambient element (e.g. oxygen, hydrogen, water) is or isn't a certain value. | <img src="/assets/screenshots/2025-02-04-sensor-element.png" class="in-table"> |
 | **Time sensor** | Sends _true_ when the current world time is within a certain range. | <img src="/assets/screenshots/2025-02-04-sensor-time.png" class="in-table"> |
 | **Light sensor** | Sends _true_ when the ambient light levels are above or below the configured value. | <img src="/assets/screenshots/2025-02-04-sensor-light.png" class="in-table"> |
