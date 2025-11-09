@@ -75,3 +75,12 @@ Evan's been creating and playing music since the age of 13, but towards the end 
 he began pivoting towards the world of film and games.
 Since completing his bachelor's of jazz performance at the University of Montreal
 Evan has worked on several games, filling roles such as composer, music designer, dialogue lead, sound designer, technical audio integrator, and lead audio.
+
+<div style="clear:both;height:10px;"></div>
+<img src="/assets/images/team/ruby.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Ruby Kemp** (she/her) is a lifelong gamer and freelance creative based in Te Whanganui-a-Tara,
+with a love for narrative exploration and proble-solving games. She has been working professionally
+in gaming since 2022 in a range of roles, including voice acting, narrative writing, streaming, and community support.
+Ruby has a passion for creating spaces that champion inclusivity, diversity, and accessibility –
+games have an incredible power to build life-changing communities by bringing people together for good,
+and everyone should get the chance to experience that positivity.
