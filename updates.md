@@ -18,6 +18,8 @@ permalink: /updates
   <div class="ml-embedded" data-form="DGU4vx"></div>
 </div>
 
+- [Update #23: Mark your calendars, explorers!](https://preview.mailerlite.io/preview/797385/emails/173452961281738382) – Dec 2025
+- [Update #22: Adaptory news coming Dec 10 ☀](https://preview.mailerlite.io/preview/797385/emails/170903897063294461) – Nov 2025
 - [Update #21: Adaptory is coming to PAX Aus 2025!](https://preview.mailerlite.io/emails/webview/797385/167014410462693286) – Oct 2025
 - [Update #20: Adaptory Alpha 13 + NZ news!](https://preview.mailerlite.io/emails/webview/797385/166270250033088327) – Sep 2025
 - [Update #19: Play Adaptory at Gamescom!](https://preview.mailerlite.io/preview/797385/emails/161497705402598692) – Aug 2025
