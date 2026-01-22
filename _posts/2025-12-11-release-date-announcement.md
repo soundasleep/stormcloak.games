@@ -4,7 +4,7 @@ title:  "Mark your calendars, explorers!"
 date:   2025-12-11 14:35:00 +1300
 author: Ruby Kemp
 year:   2023 # display on page1
-#truncate_words: 300 # show them all!
+#truncate_words: 200
 ---
 
 The moment is here...
