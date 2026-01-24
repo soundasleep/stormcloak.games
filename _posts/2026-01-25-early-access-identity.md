@@ -84,7 +84,7 @@ so make sure to keep an eye on them!
 
 <figure class="image">
   <a href="/assets/screenshots/2026-01-25-random-events.png"><img src="/assets/screenshots/2026-01-25-random-events.png"></a>
-  <figcaption>Experience beautiful aurora or dicover crash-landed cargo pods</figcaption>
+  <figcaption>Experience beautiful aurora or discover crash-landed cargo pods</figcaption>
 </figure>
 
 Adaptory also increases the challenge for experienced players with new **random world events**.
