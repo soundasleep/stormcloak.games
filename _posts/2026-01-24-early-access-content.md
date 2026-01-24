@@ -9,7 +9,7 @@ year:   2023 # display on page1
 
 My development efforts over the last two years
 (since [Steam Next Fest in Feb 2024](/2024/02/14/next-fest-whats-next))
-has primarily been focused over four areas: more content, a refined identity,
+have primarily been focused over four areas: more content, a refined identity,
 better performance, and a cleaner UI.
 In today's feature preview, I'd love to chat about some of the new content, mechanics,
 and buildings that you'll be able to play with in Adaptory Early Access!
