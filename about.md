@@ -77,6 +77,13 @@ Since completing his bachelor's of jazz performance at the University of Montrea
 Evan has worked on several games, filling roles such as composer, music designer, dialogue lead, sound designer, technical audio integrator, and lead audio.
 
 <div style="clear:both;height:10px;"></div>
+<img src="/assets/images/team/kat.png" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
+**Kat Lee** (she/her) is a freelance animator and illustrator based in Aotearoa.
+She studied at Auckland University of Technology and graduated with a Bachelor in Animation,
+as well as a minor in motion capture. They have a great fondness for the visual medium,
+be it game or film, and has been drawing and dreaming of her own stories since she was little.
+
+<div style="clear:both;height:10px;"></div>
 <img src="/assets/images/team/ruby.jpg" style="max-width:20%;float:left;margin-right:10px;margin-bottom:10px;">
 **Ruby Kemp** (she/her) is a lifelong gamer and freelance creative based in Te Whanganui-a-Tara,
 with a love for narrative exploration and proble-solving games. She has been working professionally
