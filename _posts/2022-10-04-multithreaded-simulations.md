@@ -27,7 +27,7 @@ they can run many processes simultaneously. Making a simulation game multithread
 is [extremely difficult](https://forums.factorio.com/viewtopic.php?f=5&t=39893&start=60#p238247),
 but it is possible. (This is also one of the reasons I went with Java rather than C.)
 
-Adaptory is a game with multiple simulations all interacting together, such as [the element simulation](/2022/01/27/element-sim):
+Adaptory is a game with multiple simulations all interacting together, such as [the element simulation](/2022/01/26/element-sim):
 
 <figure class="image">
   <a href="/assets/screenshots/2022-10-04-element-simulation.png"><img src="/assets/screenshots/2022-10-04-element-simulation.png"></a>
