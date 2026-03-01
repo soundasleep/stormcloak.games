@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect: https://discord.gg/gku8afsKWF
+redirect: https://discord.gg/JDpJTpMtkv
 ---
