@@ -19,7 +19,7 @@ Each review makes a massive difference to the game's visibility – especially a
 Thank you!
 
 <figure class="image">
-  <a href="/assets/screenshots/2026-01-27-steam-review.png"><img src="/assets/screenshots/2026-01-27-steam-review.png"></a>
+  <a href="https://store.steampowered.com/app/2201620/Adaptory/"><img src="/assets/screenshots/2026-01-27-steam-review.png"></a>
   <figcaption>Please consider leaving an honest review of Adaptory on Steam &lt;3</figcaption>
 </figure>
 
