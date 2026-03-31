@@ -7,7 +7,7 @@ year:   2023 # display on page1
 truncate_words: 95
 ---
 
-We're just a few days away from [the Materials Update](/2026/03/19/update-1-release-date),
+We're just a few days away from [the Materials Update](/2026/03/18/update-1-release-date),
 Adaptory's exciting first major update!
 Today I'll be sharing a little preview of what's coming.
 
