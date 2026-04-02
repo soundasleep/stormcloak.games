@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Update 1 – Distress beacon and QOL"
+title:  "Update 1 – Distress beacon and QOL preview"
 date:   2026-04-03 10:00:00 +1300 # NZDT TODO
 author: Jevon Wright
 year:   2023 # display on page1
