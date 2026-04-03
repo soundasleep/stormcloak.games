@@ -7,7 +7,7 @@ year:   2023 # display on page1
 truncate_words: 125
 ---
 
-Time flies! It feels like we only just [entered Early Access](/2026/01/27/early-access-live), but we've been busy in the background working
+Time flies! It feels like we only just [entered Early Access](/2026/01/26/early-access-live), but we've been busy in the background working
 on Adaptory's first EA update while simultaneously releasing [five small patches since release](https://store.steampowered.com/news/app/2201620).
 
 We are very excited to share that we have an official launch date for Adaptory's first major Early Access update...
