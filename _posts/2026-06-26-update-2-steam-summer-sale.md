@@ -8,7 +8,7 @@ truncate_words: 300 # show all of them
 ---
 
 Since [Update 1: The Materials Update](/2026/04/04/update-1-live) was released,
-we haven't stopped, and we're now entirely focused on the next update out.
+we haven't stopped, and we're now entirely focused on the next update.
 The final scope has been decided, all of the major content is being
 balanced and polished, tutorials are being written, and the finish line is in sight...
 including these mysterious objects:
