@@ -23,7 +23,7 @@ second major Early Access update...
   <figcaption>Snippet from Adaptory's <a href="https://store.steampowered.com/app/2201620/Adaptory/">roadmap</a></figcaption>
 </figure>
 
-Over the next few weeks, we'll be sharing [more](/2026/06/26/update-2-steam-summer-sale) previews of what's coming
+Over the next few weeks, we'll be sharing [more](/2026/06/25/update-2-steam-summer-sale) previews of what's coming
 in this massive update,
 so make sure you're following us on
 [BlueSky](https://bsky.app/profile/stormcloak.games),
