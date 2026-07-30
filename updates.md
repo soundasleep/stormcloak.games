@@ -18,6 +18,10 @@ permalink: /updates
   <div class="ml-embedded" data-form="DGU4vx"></div>
 </div>
 
+- [Update #27: Adaptory's first major update is LIVE!](https://preview.mailerlite.io/preview/797385/emails/183715146564109889) – Apr 2026
+- [Update #26: Introducing... the Adaptory Materials Update!](https://preview.mailerlite.io/preview/797385/emails/183405432413357228) – Apr 2026
+- [Update #25: Soundtrack and what's next](https://preview.mailerlite.io/preview/797385/emails/178618963827099295) – Feb 2026
+- [Update #24: Adaptory is out NOW!](https://preview.mailerlite.io/preview/797385/emails/177447234627962026) – Jan 2026
 - [Update #23: Mark your calendars, explorers!](https://preview.mailerlite.io/preview/797385/emails/173452961281738382) – Dec 2025
 - [Update #22: Adaptory news coming Dec 10 ☀](https://preview.mailerlite.io/preview/797385/emails/170903897063294461) – Nov 2025
 - [Update #21: Adaptory is coming to PAX Aus 2025!](https://preview.mailerlite.io/emails/webview/797385/167014410462693286) – Oct 2025
