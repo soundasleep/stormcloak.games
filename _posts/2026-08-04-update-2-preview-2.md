@@ -32,9 +32,10 @@ with their local environment, and in Update 2, they are much more sensitive to t
 - Explorers will try to avoid or do any personal errands inside any cell that is outside
   the **extreme range** (-10\~60 °C). (No more writing diary entries in magma!)
 
-An explorers' body temperature will tend towards neutral (25 °C) naturally through **homeostasis**,
+An explorers' body temperature will tend towards neutral (25 °C) naturally through **thermostasis**,
 and will be affected by the temperature and thermal conductivity of their surroundings.
 For example, if they're sitting in a puddle of cold water, their body temperature will rapidly decrease.
+The rate of thermostasis can also be affected by your game's difficulty level.
 
 Most **buildings** now also have operating temperature ranges, and will automatically
 shut down if their temperatures are outside of a safe range.
