@@ -62,7 +62,7 @@ These background temperatures tend to keep icy areas frozen and the deep undergr
 </figure>
 
 To prevent background temperature, you can dig out cells and remove all mass to turn them
-into a **vacuuum** (which has zero mass, so cannot transfer heat),
+into a **vacuum** (which has zero mass, so cannot transfer heat),
 or you can build **background panels** and **tiles** which block background temperature.
 
 There are also FOUR new random events in Update 2: **planet heating up** and **planet cooling down**,
