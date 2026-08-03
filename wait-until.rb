@@ -1,5 +1,7 @@
 # Usage:
-# ruby wait-until.rb <date> <command>
+# ruby wait-until.rb -- <date> <command>
+# e.g.
+# ruby wait-until.rb -- "2026-07-31T05:00:00+12:00" "git push"
 
 require_relative "_common"
 require "date_core"
