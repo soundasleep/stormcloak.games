@@ -4,7 +4,7 @@ title:  "Update 2 – Things are heating up"
 date:   2026-08-04 10:00:00 +1200 # NZST
 author: Jevon Wright
 year:   2023 # display on page1
-truncate_words: 250 # TODO
+truncate_words: 250
 ---
 
 In this second of [three preview posts](/2026/07/30/update-2-preview-1)

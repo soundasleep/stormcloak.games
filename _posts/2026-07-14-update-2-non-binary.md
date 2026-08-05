@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Update 2 release date + Nonbinary Coded Games"
-date:   2026-07-14 05:00:00 +1300 # TODO
+date:   2026-07-14 05:00:00 +1300
 author: Jevon Wright
 year:   2023 # display on page1
 truncate_words: 175
