@@ -35,9 +35,9 @@ If you don't already have the game, Adaptory is featured in the
 
 We're thrilled and honoured for Adaptory to be in the official **curated selection** for **Tiny Teams** this year <3
 
-[Tiny Teams](https://www.yogscast.games/tinyteams) is "the world's greatest Steam Festival celebrating small studios making big games.
+[Tiny Teams](https://www.yogscast.games/tinyteams) is _"the world's greatest Steam Festival celebrating small studios making big games.
 Exclusively featuring games from solo devs or micro studios, it is a week-long celebration on
-Steam, Twitch, and YouTube, highlighting the power of the solo and tiny teams."
+Steam, Twitch, and YouTube, highlighting the power of the solo and tiny teams."_
 
 I have no idea if or when Adaptory will be streamed or featured, but we'll keep our [Discord](/discord)
 and [socials](https://bsky.app/profile/stormcloak.games) up-to-date with all the latest info – hope to see you there!
