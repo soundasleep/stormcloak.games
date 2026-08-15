@@ -4,7 +4,7 @@ title:  "The Temperature Update is LIVE!"
 date:   2026-08-07 05:00:00 +1200 # NZST
 author: Jevon Wright
 year:   2023 # display on page1
-truncate_words: 150
+truncate_words: 143
 ---
 
 **The Temperature Update** – Adaptory's second **free** major update – is now **LIVE!**
